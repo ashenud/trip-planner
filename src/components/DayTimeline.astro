@@ -13,7 +13,13 @@ const { id, label, items } = Astro.props;
 <section id={id} class="px-4 py-14 sm:px-6 sm:py-20">
   <div class="mx-auto max-w-3xl">
     <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">{label}</h2>
-    <ul class="mt-8">
+    <ul class="mt-4 flex flex-wrap gap-x-4 gap-y-1.5 text-xs font-medium text-teal-700">
+      <li class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-full bg-teal-600" aria-hidden="true"></span>Location</li>
+      <li class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-full bg-sky-500" aria-hidden="true"></span>Travel</li>
+      <li class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-full bg-amber-400" aria-hidden="true"></span>Short break</li>
+      <li class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-full bg-sunset-500" aria-hidden="true"></span>Meal</li>
+    </ul>
+    <ul class="mt-6">
       {items.map((item, i) => (
         <TimelineCard item={item} isLast={i === items.length - 1} />
       ))}

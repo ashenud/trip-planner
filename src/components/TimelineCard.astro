@@ -24,6 +24,23 @@ const timeRange = item.start && item.end
   : item.start
   ? item.start
   : "—";
+
+type Category = "meal" | "travel" | "break" | "location";
+
+const category: Category = item.meal
+  ? "meal"
+  : item.location === "En route" || /^(drive|boat)\b/i.test(item.activity)
+  ? "travel"
+  : /comfort stop|short rest|buffer|stretch|sunrise stop/i.test(item.activity)
+  ? "break"
+  : "location";
+
+const dotColors: Record<Category, string> = {
+  meal: "bg-sunset-500",
+  travel: "bg-sky-500",
+  break: "bg-amber-400",
+  location: "bg-teal-600",
+};
 ---
 
 <li class="relative pl-10 sm:pl-12">
@@ -33,7 +50,7 @@ const timeRange = item.start && item.end
   <span
     class:list={[
       "absolute left-0 top-1.5 flex h-[19px] w-[19px] items-center justify-center rounded-full border-2 border-sand-50 sm:h-[23px] sm:w-[23px]",
-      item.meal ? "bg-sunset-500" : "bg-teal-600",
+      dotColors[category],
     ]}
     aria-hidden="true"
   ></span>

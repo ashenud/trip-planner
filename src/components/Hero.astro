@@ -1,4 +1,7 @@
 ---
+import plans from "../data/plans/index.json";
+import { withBase } from "../utils/paths";
+
 export interface Props {
   tripInfo: {
     title: string;
@@ -7,9 +10,10 @@ export interface Props {
     stats: Array<{ label: string; value: string }>;
   };
   planLabel: string;
+  activeSlug: string;
 }
 
-const { tripInfo, planLabel } = Astro.props;
+const { tripInfo, planLabel, activeSlug } = Astro.props;
 ---
 
 <section id="top" class="relative overflow-hidden bg-gradient-to-br from-teal-800 via-teal-700 to-sunset-600 px-4 py-16 text-sand-50 sm:px-6 sm:py-24">
@@ -17,9 +21,28 @@ const { tripInfo, planLabel } = Astro.props;
   <div class="pointer-events-none absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-white/10 blur-2xl"></div>
 
   <div class="relative mx-auto max-w-4xl text-center">
-    <span class="inline-block rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-sand-100">
-      {planLabel}
-    </span>
+    <details class="group relative inline-block text-left">
+      <summary class="flex cursor-pointer list-none items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-sand-100 select-none hover:bg-white/25">
+        {planLabel}
+        <span class="text-[10px] transition-transform group-open:rotate-180">▾</span>
+      </summary>
+      <ul class="absolute left-1/2 z-50 mt-2 w-72 -translate-x-1/2 overflow-hidden rounded-xl border border-teal-800/10 bg-white text-left normal-case tracking-normal text-teal-900 shadow-lg">
+        {plans.map((plan) => (
+          <li>
+            <a
+              href={withBase(`/plans/${plan.slug}/`)}
+              class:list={[
+                "block px-4 py-3 text-sm hover:bg-sand-100",
+                plan.slug === activeSlug ? "bg-sand-100 font-semibold text-teal-800" : "text-teal-700",
+              ]}
+            >
+              <div>{plan.label}</div>
+              <div class="mt-0.5 text-xs font-normal text-teal-600/80">{plan.description}</div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </details>
     <p class="mt-3 text-sm font-semibold uppercase tracking-widest text-sand-200">
       {tripInfo.dates}
     </p>
