@@ -1,5 +1,5 @@
 {
-  "label": "Day 2 — Thursday, 27 August 2026 (Sightseeing day, no return to the accommodation)",
+  "label": "Day 2 — Thursday, 27 August 2026 (Velgam Vehera, Kanniya, Marble Beach, Kayaking)",
   "items": [
     {
       "start": "7:00 AM",
@@ -8,7 +8,7 @@
       "activity": "Breakfast (request an early service the day before)",
       "duration": "45 min",
       "travel": null,
-      "why": "Fixed — maximizes the cool part of the day for Pigeon Island",
+      "why": "Fixed — at the accommodation",
       "note": null,
       "meal": true,
       "locationId": "verandas"
@@ -20,109 +20,118 @@
       "activity": "Pack, check out, load all luggage — final departure from the accommodation",
       "duration": "30 min",
       "travel": null,
-      "why": "We're not coming back, so the full checkout happens now rather than at 5:30 PM",
+      "why": "Full checkout happens now since the group doesn't come back today",
       "note": null,
       "locationId": "verandas"
     },
     {
       "start": "8:15 AM",
-      "end": "8:45 AM",
+      "end": "8:35 AM",
       "location": "En route",
-      "activity": "Drive to Nilaveli / Pigeon Island ticket office",
-      "duration": "30 min",
-      "travel": "~15 km",
-      "why": null,
+      "activity": "Drive to Velgam Vehera",
+      "duration": "20 min",
+      "travel": "~9 km",
+      "why": "Closest stop to Verandas — logical first hop",
       "note": null
     },
     {
-      "start": "8:45 AM",
-      "end": "9:30 AM",
-      "location": "Nilaveli",
-      "activity": "Buy Wildlife Dept. tickets, arrange boats, safety briefing",
+      "start": "8:35 AM",
+      "end": "9:20 AM",
+      "location": "Velgam Vehera",
+      "activity": "Visit ancient stupa",
       "duration": "45 min",
       "travel": null,
-      "why": "For 16 people this genuinely takes this long — NIC checks, multiple boats, snorkel gear",
+      "why": "Flat, shaded, easy for a large group",
       "note": null,
-      "locationId": "nilaveli"
+      "locationId": "velgam-vehera"
     },
     {
-      "start": "9:30 AM",
-      "end": "9:45 AM",
-      "location": "Boat to Pigeon Island",
-      "activity": "Boat to Pigeon Island",
-      "duration": "15 min",
-      "travel": null,
+      "start": "9:20 AM",
+      "end": "9:40 AM",
+      "location": "En route",
+      "activity": "Drive to Kanniya",
+      "duration": "20 min",
+      "travel": "~10 km",
       "why": null,
       "note": null
     },
     {
-      "start": "9:45 AM",
-      "end": "12:15 PM",
-      "location": "Pigeon Island",
-      "activity": "Snorkelling & beach",
-      "duration": "150 min",
+      "start": "9:40 AM",
+      "end": "10:25 AM",
+      "location": "Kanniya Hot Water Springs",
+      "activity": "Visit the 7 wells",
+      "duration": "45 min",
       "travel": null,
-      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up. Extended from 90 to 150 min since the day no longer needs to rush back to Verandas — this is the trip's highest-value activity",
+      "why": "Treated as a photo/cultural stop, not a full bathing session, to protect the schedule",
       "note": null,
-      "locationId": "pigeon-island"
+      "locationId": "kanniya"
     },
     {
-      "start": "12:15 PM",
-      "end": "12:30 PM",
-      "location": "Boat back to Nilaveli",
-      "activity": "Boat back to Nilaveli",
-      "duration": "15 min",
+      "start": "10:25 AM",
+      "end": "10:50 AM",
+      "location": "En route",
+      "activity": "Drive to Marble Beach",
+      "duration": "25 min",
+      "travel": "~14 km",
+      "why": "Heads back south, past Verandas",
+      "note": null
+    },
+    {
+      "start": "10:50 AM",
+      "end": "12:20 PM",
+      "location": "Marble Beach",
+      "activity": "Swim & relax",
+      "duration": "90 min",
       "travel": null,
+      "why": "Calm, shallow, shaded resort beach handles late-morning/midday heat better than an exposed public beach",
+      "note": null,
+      "locationId": "marble-beach"
+    },
+    {
+      "start": "12:20 PM",
+      "end": "12:40 PM",
+      "location": "En route",
+      "activity": "Drive to lunch venue (Trincomalee town area)",
+      "duration": "20 min",
+      "travel": "~9 km",
       "why": null,
       "note": null
     },
     {
-      "start": "12:30 PM",
-      "end": "1:00 PM",
-      "location": "Nilaveli Beach",
-      "activity": "Relax, dry off, photos",
-      "duration": "30 min",
-      "travel": null,
-      "why": "Shortened from 45 min — less needed now that Pigeon Island itself is longer",
-      "note": null,
-      "locationId": "nilaveli"
-    },
-    {
-      "start": "1:00 PM",
-      "end": "2:15 PM",
-      "location": "Nilaveli/Uppuveli",
+      "start": "12:40 PM",
+      "end": "1:50 PM",
+      "location": "Trincomalee town area",
       "activity": "Lunch",
-      "duration": "75 min",
+      "duration": "70 min",
       "travel": null,
-      "why": "Beachfront restaurants right where you already are",
+      "why": "Midday heat — good time to be seated indoors, right before the drive to Kantale",
       "note": null,
-      "meal": true,
-      "locationId": "nilaveli"
+      "meal": true
     },
     {
-      "start": "2:15 PM",
-      "end": "3:25 PM",
+      "start": "1:50 PM",
+      "end": "2:55 PM",
       "location": "En route",
       "activity": "Drive to Kantale",
-      "duration": "70 min",
-      "travel": "~52 km",
-      "why": "First leg of the return journey — Kantale sits on the way back toward the A6",
+      "duration": "65 min",
+      "travel": "~40 km",
+      "why": "First leg of the drive home — Kantale sits on the A6 route back",
       "note": null
     },
     {
-      "start": "3:25 PM",
-      "end": "5:25 PM",
+      "start": "2:55 PM",
+      "end": "4:55 PM",
       "location": "Kantale (Agbo Adventures)",
       "activity": "Kayaking",
       "duration": "120 min",
       "travel": null,
-      "why": "Extended from 90 to 120 min. Afternoon trades away the ideal cool-morning-calm-water window, but stays well clear of the ~6:14–6:21 PM sunset — a deliberate tradeoff to avoid a wasted round trip back to Verandas",
-      "note": "⚠️ Loses the cool-morning-calm-water advantage the original Day 1 slot had — a deliberate tradeoff, not an oversight.",
+      "why": "Mid-afternoon slot — trades away the ideal cool-morning-calm-water window for fitting neatly into the drive home, but stays well clear of the ~6:14–6:21 PM sunset",
+      "note": null,
       "locationId": "kantale"
     },
     {
-      "start": "5:25 PM",
-      "end": "6:35 PM",
+      "start": "4:55 PM",
+      "end": "6:05 PM",
       "location": "En route",
       "activity": "Drive to Habarana/Dambulla area",
       "duration": "70 min",
@@ -131,31 +140,31 @@
       "note": null
     },
     {
-      "start": "6:35 PM",
-      "end": "7:50 PM",
+      "start": "6:05 PM",
+      "end": "7:20 PM",
       "location": "Habarana/Dambulla area",
       "activity": "Dinner",
       "duration": "75 min",
       "travel": null,
-      "why": "Replaces the accommodation dinner, since the group no longer returns to Verandas; same restaurant zone used for 26 Aug breakfast",
+      "why": "Replaces the accommodation dinner, since the group doesn't return to Verandas; same restaurant zone used for 26 Aug breakfast",
       "note": null,
       "meal": true
     },
     {
-      "start": "7:50 PM",
+      "start": "7:20 PM",
       "end": null,
       "location": "Habarana/Dambulla area",
       "activity": "Depart for Athurugiriya",
       "duration": null,
       "travel": null,
-      "why": "Sets up the ~1:30 AM arrival target with a comfortable buffer",
+      "why": "Sets up the ~1:15–1:30 AM arrival target with a comfortable buffer",
       "note": null
     }
   ],
   "returnJourney": {
     "label": "Return Journey (27–28 August)",
-    "start": "7:50 PM (27 Aug)",
-    "end": "~1:30 AM (28 Aug)",
-    "notes": "~5h40 available for a ~180 km leg (Habarana/Dambulla → Athurugiriya via Kurunegala), including one rest stop — noticeably more slack than the original 260 km/6h45–7h00 return, since kayaking, dinner, and ~150 km of the route are now covered earlier in the day."
+    "start": "7:20 PM (27 Aug)",
+    "end": "~1:15–1:30 AM (28 Aug)",
+    "notes": "~5h55–6h10 available for a ~180 km leg (Habarana/Dambulla → Athurugiriya via Kurunegala), including one rest stop — a generous margin over the ~4h30–5h00 realistic driving time, which protects against driver fatigue on the second long day in a row."
   }
 }

@@ -1,7 +1,59 @@
 [
   {
-    "id": "velgam-vehera",
+    "id": "nilaveli",
     "order": 1,
+    "name": "Nilaveli Beach",
+    "shortName": "Nilaveli Beach",
+    "address": "Nilaveli, Trincomalee District",
+    "lat": 8.7003,
+    "lng": 81.1921,
+    "hours": "Open access",
+    "description": "Beach and boat launch point, paired naturally with Pigeon Island.",
+    "notes": "First stop on Day 1, right as the outbound drive reaches the coast — ticket office and boat launch for Pigeon Island.",
+    "image": "/images/nilaveli-beach.jpg"
+  },
+  {
+    "id": "pigeon-island",
+    "order": 2,
+    "name": "Pigeon Island Marine National Park",
+    "shortName": "Pigeon Island",
+    "address": "Pigeon Island, off Nilaveli",
+    "lat": 8.7214,
+    "lng": 81.2038,
+    "hours": "8:00 AM–4:00 PM",
+    "description": "Snorkelling and beach — the trip's highest-value, hardest-to-reschedule activity.",
+    "notes": "Boats depart from Nilaveli. August sits within the dry-season \"calm sea\" window (May–September, June–August rated best). Gets the longest single block of Day 1 (150 minutes).",
+    "image": "/images/pigeon-island.jpg"
+  },
+  {
+    "id": "koneswaram",
+    "order": 3,
+    "name": "Thirukoneswaram Kovil (Koneswaram Temple), Fort Frederick",
+    "shortName": "Koneswaram Temple",
+    "address": "Fort Frederick, Trincomalee",
+    "lat": 8.5824,
+    "lng": 81.2454,
+    "hours": "6:00 AM–1:00 PM & 4:00–6:45 PM daily",
+    "description": "Iconic hilltop temple within Fort Frederick, close to the accommodation.",
+    "notes": "⚠️ Restriction: shoulders and knees must be covered and shoes removed before entering — plan a quick change out of beachwear at Nilaveli or on the bus. Vehicles pass through a checkpoint (ID may be checked) to a large car park, then it's a ~200 m walk up to the temple. Visited in the 4:00–6:45 PM afternoon window, after the midday closure.",
+    "image": "/images/koneswaram-temple.jpeg"
+  },
+  {
+    "id": "verandas",
+    "order": 4,
+    "name": "Verandas, Trincomalee",
+    "shortName": "Verandas (Accommodation)",
+    "address": "Trincomalee",
+    "lat": 8.5852,
+    "lng": 81.1921,
+    "hours": "—",
+    "description": "The group's accommodation for the night of 26 August.",
+    "notes": "Checkout happens the morning of 27 August — the group doesn't return here after breakfast.",
+    "image": "/images/verandas-accommodation.webp"
+  },
+  {
+    "id": "velgam-vehera",
+    "order": 5,
     "name": "Velgam Vehera Buddhist Temple",
     "shortName": "Velgam Vehera",
     "address": "Velgam Vehera, Trincomalee District",
@@ -9,12 +61,12 @@
     "lng": 81.1697,
     "hours": "Open daily (no ticket queue)",
     "description": "Ancient Buddhist stupa, flat and shaded, easy for a large group.",
-    "notes": "Free, large car park, ~5-min flat walk to the ruins.",
+    "notes": "Free, large car park, ~5-min flat walk to the ruins. Only ~9 km from Verandas — first stop on Day 2.",
     "image": "/images/velgam-vehera.jpg"
   },
   {
     "id": "kanniya",
-    "order": 2,
+    "order": 6,
     "name": "Kanniya Hot Water Springs",
     "shortName": "Kanniya Hot Springs",
     "address": "Kanniya, Trincomalee District",
@@ -27,7 +79,7 @@
   },
   {
     "id": "marble-beach",
-    "order": 3,
+    "order": 7,
     "name": "Marble Beach",
     "shortName": "Marble Beach",
     "address": "Marble Beach, Trincomalee",
@@ -39,58 +91,6 @@
     "image": "/images/marble-beach.jpg"
   },
   {
-    "id": "koneswaram",
-    "order": 4,
-    "name": "Thirukoneswaram Kovil (Koneswaram Temple), Fort Frederick",
-    "shortName": "Koneswaram Temple",
-    "address": "Fort Frederick, Trincomalee",
-    "lat": 8.5824,
-    "lng": 81.2454,
-    "hours": "6:00 AM–1:00 PM & 4:00–6:45 PM daily",
-    "description": "Iconic hilltop temple within Fort Frederick, on the way back to the accommodation.",
-    "notes": "⚠️ Restriction: shoulders and knees must be covered and shoes removed before entering — plan a quick change out of beachwear at Marble Beach or on the bus. Vehicles pass through a checkpoint (ID may be checked) to a large car park, then it's a ~200 m walk up to the temple.",
-    "image": "/images/koneswaram-temple.jpeg"
-  },
-  {
-    "id": "verandas",
-    "order": 5,
-    "name": "Verandas, Trincomalee",
-    "shortName": "Verandas (Accommodation)",
-    "address": "Trincomalee",
-    "lat": 8.5852,
-    "lng": 81.1921,
-    "hours": "—",
-    "description": "The group's accommodation for the night of 26 August.",
-    "notes": "Checkout happens the morning of 27 August — the group doesn't return here after breakfast.",
-    "image": "/images/verandas-accommodation.webp"
-  },
-  {
-    "id": "nilaveli",
-    "order": 6,
-    "name": "Nilaveli Beach",
-    "shortName": "Nilaveli Beach",
-    "address": "Nilaveli, Trincomalee District",
-    "lat": 8.7003,
-    "lng": 81.1921,
-    "hours": "Open access",
-    "description": "Beach and boat launch point, paired naturally with Pigeon Island.",
-    "notes": "Also the site of the 27 Aug lunch (Nilaveli/Uppuveli beach strip).",
-    "image": "/images/nilaveli-beach.jpg"
-  },
-  {
-    "id": "pigeon-island",
-    "order": 7,
-    "name": "Pigeon Island Marine National Park",
-    "shortName": "Pigeon Island",
-    "address": "Pigeon Island, off Nilaveli",
-    "lat": 8.7214,
-    "lng": 81.2038,
-    "hours": "8:00 AM–4:00 PM",
-    "description": "Snorkelling and beach — the trip's highest-value, hardest-to-reschedule activity.",
-    "notes": "Boats depart from Nilaveli. August sits within the dry-season \"calm sea\" window (May–September, June–August rated best). Extended to 150 minutes now that Day 2 doesn't loop back to Verandas.",
-    "image": "/images/pigeon-island.jpg"
-  },
-  {
     "id": "kantale",
     "order": 8,
     "name": "Kayaking Kantale — Agbo Adventures",
@@ -100,7 +100,7 @@
     "lng": 80.9768,
     "hours": "7:00 AM–6:30 PM",
     "description": "Kayaking on the Kantale reservoir, right on the A6 route.",
-    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on your A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town. Now visited on the Day 2 return leg (mid-afternoon) rather than Day 1 morning, so the group doesn't have to double back to Verandas after Pigeon Island — the cool-morning-calm-water advantage is traded for that, but it's still well clear of sunset.",
+    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on the A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town. Visited mid-afternoon on Day 2, as the first leg of the drive home.",
     "image": "/images/kayaking-kantale.avif"
   }
 ]

@@ -62,7 +62,7 @@
       "activity": "Snorkelling & beach",
       "duration": "150 min",
       "travel": null,
-      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up. Extended from 90 to 150 min since the day no longer needs to rush back to Verandas — this is the trip's highest-value activity",
+      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up. Given a generous 150-minute block since the day runs straight into the return journey afterward — this is the trip's highest-value activity",
       "note": null,
       "locationId": "pigeon-island"
     },
@@ -83,7 +83,7 @@
       "activity": "Relax, dry off, photos",
       "duration": "30 min",
       "travel": null,
-      "why": "Shortened from 45 min — less needed now that Pigeon Island itself is longer",
+      "why": "A shorter block is enough here, since Pigeon Island itself already carries the bulk of the beach/relax time",
       "note": null,
       "locationId": "nilaveli"
     },
@@ -116,7 +116,7 @@
       "activity": "Visit ancient stupa",
       "duration": "45 min",
       "travel": null,
-      "why": "Flat, shaded, easy for a large group; moved here from Day 1",
+      "why": "Flat, shaded, easy for a large group",
       "note": null,
       "locationId": "velgam-vehera"
     },
@@ -137,7 +137,7 @@
       "activity": "Visit the 7 wells",
       "duration": "45 min",
       "travel": null,
-      "why": "Treated as a photo/cultural stop, not a full bathing session; moved here from Day 1",
+      "why": "Treated as a photo/cultural stop, not a full bathing session, to protect the schedule",
       "note": null,
       "locationId": "kanniya"
     },
