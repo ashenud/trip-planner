@@ -34,10 +34,12 @@ npm run preview   # serve the dist/ build locally to sanity-check it
   directory `dist` (or drag-and-drop the `dist/` folder at [app.netlify.com/drop](https://app.netlify.com/drop)).
 - **Vercel:** import the repo — Vercel auto-detects Astro; build command
   `npm run build`, output directory `dist`.
-- **GitHub Pages:** run `npm run build`, then publish the contents of `dist/`
-  to the `gh-pages` branch (e.g. via the `peaceiris/actions-gh-pages` GitHub
-  Action, or `npx gh-pages -d dist`). If the site is served from a subpath
-  (`username.github.io/repo-name`), set `base: '/repo-name'` in `astro.config.mjs`.
+- **GitHub Pages:** already wired up via `.github/workflows/deploy.yml` — every
+  push to `main` builds the site and deploys it automatically. One-time setup:
+  in the repo's **Settings → Pages**, set "Build and deployment" source to
+  **GitHub Actions**. The site is served from `https://ashenud.github.io/trip-planner/`,
+  so `astro.config.mjs` sets `site`/`base` accordingly — update those two
+  values if the repo is ever renamed or moved to a different account.
 - **Cloudflare Pages:** connect the repo, build command `npm run build`,
   output directory `dist`.
 
