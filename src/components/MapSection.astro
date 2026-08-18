@@ -1,0 +1,72 @@
+---
+import "leaflet/dist/leaflet.css";
+import locations from "../data/locations.json";
+import route from "../data/route.json";
+
+const mapData = {
+  locations,
+  routeOrder: [...route.day1, ...route.day2],
+};
+---
+
+<section id="map" class="px-4 py-14 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-6xl">
+    <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">Route Map</h2>
+    <p class="mt-2 max-w-2xl text-sm text-teal-700">
+      All 7 stops plus the Verandas accommodation, connected in day order.
+    </p>
+
+    <div
+      id="trip-map"
+      class="mt-8 h-[420px] w-full rounded-2xl border border-teal-800/10 shadow-sm sm:h-[520px]"
+      data-map={JSON.stringify(mapData)}
+    >
+    </div>
+  </div>
+</section>
+
+<script>
+  import L from "leaflet";
+  import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
+  import iconUrl from "leaflet/dist/images/marker-icon.png";
+  import shadowUrl from "leaflet/dist/images/marker-shadow.png";
+
+  L.Icon.Default.mergeOptions({ iconRetinaUrl, iconUrl, shadowUrl });
+
+  function initMap() {
+    const el = document.getElementById("trip-map");
+    if (!el || (el as any)._leaflet_id) return;
+
+    const { locations, routeOrder } = JSON.parse(el.getAttribute("data-map") ?? "{}") as {
+      locations: Array<{ id: string; lat: number; lng: number; shortName: string; hours: string }>;
+      routeOrder: string[];
+    };
+
+    const byId = new Map(locations.map((l) => [l.id, l]));
+    const map = L.map(el, { scrollWheelZoom: false }).setView([8.62, 81.15], 10);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+
+    const routeLatLngs = routeOrder
+      .map((id) => byId.get(id))
+      .filter((l): l is NonNullable<typeof l> => Boolean(l))
+      .map((l) => [l.lat, l.lng] as [number, number]);
+
+    L.polyline(routeLatLngs, { color: "#e8703c", weight: 3, opacity: 0.8, dashArray: "6 6" }).addTo(map);
+
+    for (const loc of locations) {
+      L.marker([loc.lat, loc.lng])
+        .addTo(map)
+        .bindPopup(`<strong>${loc.shortName}</strong><br/>${loc.hours}`);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initMap);
+  } else {
+    initMap();
+  }
+</script>

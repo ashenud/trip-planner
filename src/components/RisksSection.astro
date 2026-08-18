@@ -1,0 +1,36 @@
+---
+import risks from "../data/risks.json";
+---
+
+<section id="risks" class="px-4 py-14 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-3xl">
+    <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">Risk &amp; Contingency</h2>
+
+    <h3 class="mt-8 text-sm font-semibold uppercase tracking-wide text-sunset-600">Most vulnerable points</h3>
+    <div class="mt-3 divide-y divide-teal-800/10 rounded-xl border border-teal-800/10 bg-white">
+      {risks.vulnerablePoints.map((point) => (
+        <details class="group p-4 sm:p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 select-none">
+            <span class="font-medium text-teal-800">{point.title}</span>
+            <span class="shrink-0 text-teal-500 transition-transform group-open:rotate-45">+</span>
+          </summary>
+          <p class="mt-2 text-sm leading-relaxed text-teal-900/80">{point.detail}</p>
+        </details>
+      ))}
+    </div>
+
+    <h3 class="mt-10 text-sm font-semibold uppercase tracking-wide text-sunset-600">
+      If running 1–2 hours late
+    </h3>
+    <ol class="mt-3 space-y-3">
+      {risks.contingencySteps.map((step, i) => (
+        <li class="flex gap-3 rounded-xl bg-sand-100 p-4 text-sm leading-relaxed text-teal-900/90">
+          <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-700 text-xs font-bold text-sand-50">
+            {i + 1}
+          </span>
+          <span>{step}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

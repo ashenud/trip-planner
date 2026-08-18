@@ -1,0 +1,66 @@
+---
+export interface TimelineItem {
+  start: string | null;
+  end: string | null;
+  location: string;
+  activity: string;
+  duration: string | null;
+  travel: string | null;
+  why: string | null;
+  note: string | null;
+  meal?: boolean;
+  locationId?: string;
+}
+
+export interface Props {
+  item: TimelineItem;
+  isLast: boolean;
+}
+
+const { item, isLast } = Astro.props;
+
+const timeRange = item.start && item.end
+  ? `${item.start} – ${item.end}`
+  : item.start
+  ? item.start
+  : "—";
+---
+
+<li class="relative pl-10 sm:pl-12">
+  {!isLast && (
+    <span class="absolute left-[9px] top-6 h-full w-px bg-teal-700/20 sm:left-[11px]" aria-hidden="true"></span>
+  )}
+  <span
+    class:list={[
+      "absolute left-0 top-1.5 flex h-[19px] w-[19px] items-center justify-center rounded-full border-2 border-sand-50 sm:h-[23px] sm:w-[23px]",
+      item.meal ? "bg-sunset-500" : "bg-teal-600",
+    ]}
+    aria-hidden="true"
+  ></span>
+
+  <div class="mb-6 rounded-xl border border-teal-800/10 bg-white p-4 shadow-sm sm:p-5">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+      <span class="font-serif text-base font-bold text-teal-800 sm:text-lg">{timeRange}</span>
+      {item.duration && (
+        <span class="text-xs font-medium text-teal-600/80">{item.duration}</span>
+      )}
+    </div>
+    <p class="mt-1 text-sm font-semibold text-sunset-600">{item.location}</p>
+    <p class="mt-0.5 text-sm text-teal-900 sm:text-base">{item.activity}</p>
+
+    {(item.why || item.travel || item.note) && (
+      <details class="group mt-2">
+        <summary class="cursor-pointer text-xs font-medium text-teal-600 select-none hover:text-teal-800">
+          Details
+        </summary>
+        <div class="mt-2 space-y-1.5 border-t border-teal-800/10 pt-2 text-xs text-teal-700 sm:text-sm">
+          {item.travel && <p><span class="font-semibold">Travel:</span> {item.travel}</p>}
+          {item.why && <p><span class="font-semibold">Why this time:</span> {item.why}</p>}
+          {item.note && (
+            <p class="rounded-md bg-sunset-400/10 p-2 font-medium text-sunset-600">{item.note}</p>
+          )}
+        </div>
+      </details>
+    )}
+  </div>
+</li>

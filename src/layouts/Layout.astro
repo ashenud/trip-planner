@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import { withBase } from "../utils/paths";
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Group trip itinerary: Athurugiriya to Trincomalee, 26–28 August 2026." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="font-sans antialiased">
+    <slot />
+  </body>
+</html>

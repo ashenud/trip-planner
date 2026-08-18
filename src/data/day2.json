@@ -1,0 +1,153 @@
+{
+  "label": "Day 2 — Thursday, 27 August 2026 (Full sightseeing day)",
+  "items": [
+    {
+      "start": "7:00 AM",
+      "end": "7:45 AM",
+      "location": "Verandas",
+      "activity": "Breakfast (request an early service the day before)",
+      "duration": "45 min",
+      "travel": null,
+      "why": "Fixed — maximizes the cool part of the day for Pigeon Island",
+      "note": null,
+      "meal": true,
+      "locationId": "verandas"
+    },
+    {
+      "start": "7:45 AM",
+      "end": "8:15 AM",
+      "location": "En route",
+      "activity": "Drive to Nilaveli / Pigeon Island ticket office",
+      "duration": "30 min",
+      "travel": "~15 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "8:15 AM",
+      "end": "9:00 AM",
+      "location": "Nilaveli",
+      "activity": "Buy Wildlife Dept. tickets, arrange boats, safety briefing",
+      "duration": "45 min",
+      "travel": null,
+      "why": "For 16 people this genuinely takes this long — NIC checks, multiple boats, snorkel gear",
+      "note": null,
+      "locationId": "nilaveli"
+    },
+    {
+      "start": "9:00 AM",
+      "end": "9:15 AM",
+      "location": "Boat to Pigeon Island",
+      "activity": "Boat to Pigeon Island",
+      "duration": "15 min",
+      "travel": null,
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "9:15 AM",
+      "end": "10:45 AM",
+      "location": "Pigeon Island",
+      "activity": "Snorkelling & beach",
+      "duration": "90 min",
+      "travel": null,
+      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up",
+      "note": null,
+      "locationId": "pigeon-island"
+    },
+    {
+      "start": "10:45 AM",
+      "end": "11:00 AM",
+      "location": "Boat back to Nilaveli",
+      "activity": "Boat back to Nilaveli",
+      "duration": "15 min",
+      "travel": null,
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "11:00 AM",
+      "end": "11:45 AM",
+      "location": "Nilaveli Beach",
+      "activity": "Relax, dry off, photos",
+      "duration": "45 min",
+      "travel": null,
+      "why": "Late-morning light, still before peak heat",
+      "note": null,
+      "locationId": "nilaveli"
+    },
+    {
+      "start": "11:45 AM",
+      "end": "1:00 PM",
+      "location": "Nilaveli/Uppuveli",
+      "activity": "Lunch",
+      "duration": "75 min",
+      "travel": null,
+      "why": "Beachfront restaurants right where you already are",
+      "note": null,
+      "meal": true,
+      "locationId": "nilaveli"
+    },
+    {
+      "start": "1:00 PM",
+      "end": "1:30 PM",
+      "location": "En route",
+      "activity": "Drive back to Verandas",
+      "duration": "30 min",
+      "travel": "~15 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "1:30 PM",
+      "end": "4:30 PM",
+      "location": "Verandas",
+      "activity": "Free/rest time",
+      "duration": "3 hrs",
+      "travel": null,
+      "why": "Deliberately generous — absorbs any delays from earlier, lets people shower, nap, and pack before the long return drive",
+      "note": null,
+      "locationId": "verandas"
+    },
+    {
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "location": "Verandas",
+      "activity": "Dinner",
+      "duration": "60 min",
+      "travel": null,
+      "why": "Scheduled early enough that departure isn't rushed",
+      "note": null,
+      "meal": true,
+      "locationId": "verandas"
+    },
+    {
+      "start": "5:30 PM",
+      "end": "6:00 PM",
+      "location": "Verandas",
+      "activity": "Pack, load luggage, board bus",
+      "duration": "30 min",
+      "travel": null,
+      "why": "Genuine buffer for 16 people + bags",
+      "note": null,
+      "locationId": "verandas"
+    },
+    {
+      "start": "6:00 PM",
+      "end": null,
+      "location": "Verandas",
+      "activity": "Depart",
+      "duration": null,
+      "travel": null,
+      "why": "Sets up the 1:15–1:30 AM arrival target",
+      "note": null,
+      "locationId": "verandas"
+    }
+  ],
+  "returnJourney": {
+    "label": "Return Journey (27–28 August)",
+    "start": "6:00 PM (27 Aug)",
+    "end": "~1:15–1:30 AM (28 Aug)",
+    "notes": "~7h15–7h30 total, including one ~20–30 min rest stop. Fewer stops than the outbound leg, as requested, since it's an overnight return with dinner already done."
+  }
+}

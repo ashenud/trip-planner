@@ -1,0 +1,23 @@
+---
+import TimelineCard, { type TimelineItem } from "./TimelineCard.astro";
+
+export interface Props {
+  id: string;
+  label: string;
+  items: TimelineItem[];
+}
+
+const { id, label, items } = Astro.props;
+---
+
+<section id={id} class="px-4 py-14 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-3xl">
+    <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">{label}</h2>
+    <ul class="mt-8">
+      {items.map((item, i) => (
+        <TimelineCard item={item} isLast={i === items.length - 1} />
+      ))}
+    </ul>
+    <slot />
+  </div>
+</section>

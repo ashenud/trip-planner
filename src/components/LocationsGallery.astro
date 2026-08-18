@@ -1,0 +1,32 @@
+---
+import locations from "../data/locations.json";
+import { withBase } from "../utils/paths";
+
+const sorted = [...locations].sort((a, b) => a.order - b.order);
+---
+
+<section id="locations" class="bg-sand-100 px-4 py-14 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-6xl">
+    <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">Locations</h2>
+
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {sorted.map((loc) => (
+        <div class="overflow-hidden rounded-2xl border border-teal-800/10 bg-white shadow-sm">
+          <img
+            src={withBase(loc.image)}
+            alt={`Placeholder image for ${loc.shortName}`}
+            class="h-44 w-full object-cover"
+            loading="lazy"
+          />
+          <div class="p-4">
+            <h3 class="font-serif text-lg font-semibold text-teal-800">{loc.shortName}</h3>
+            <p class="mt-1 text-sm text-teal-900/80">{loc.description}</p>
+            <p class="mt-3 text-xs font-medium uppercase tracking-wide text-sunset-600">
+              {loc.hours}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

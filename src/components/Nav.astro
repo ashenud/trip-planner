@@ -1,0 +1,31 @@
+---
+const links = [
+  { href: "#day1", label: "Day 1" },
+  { href: "#day2", label: "Day 2" },
+  { href: "#map", label: "Route" },
+  { href: "#meals", label: "Meals" },
+  { href: "#weather", label: "Weather" },
+  { href: "#risks", label: "Risks" },
+  { href: "#locations", label: "Locations" },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-teal-800/10 bg-sand-50/90 backdrop-blur">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+    <a href="#top" class="font-serif text-lg font-semibold text-teal-800 whitespace-nowrap">
+      Trinco Trip
+    </a>
+    <ul class="flex w-full gap-3 overflow-x-auto text-sm font-medium text-teal-700 [&::-webkit-scrollbar]:hidden sm:justify-end sm:gap-6">
+      {links.map((link) => (
+        <li class="shrink-0">
+          <a
+            href={link.href}
+            class="rounded-full px-3 py-1.5 transition-colors hover:bg-teal-100 hover:text-teal-800"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>

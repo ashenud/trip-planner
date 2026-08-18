@@ -1,0 +1,29 @@
+---
+import tripInfo from "../data/tripInfo.json";
+---
+
+<section id="top" class="relative overflow-hidden bg-gradient-to-br from-teal-800 via-teal-700 to-sunset-600 px-4 py-16 text-sand-50 sm:px-6 sm:py-24">
+  <div class="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-white/10 blur-2xl"></div>
+  <div class="pointer-events-none absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-white/10 blur-2xl"></div>
+
+  <div class="relative mx-auto max-w-4xl text-center">
+    <p class="text-sm font-semibold uppercase tracking-widest text-sand-200">
+      {tripInfo.dates}
+    </p>
+    <h1 class="mt-3 font-serif text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
+      {tripInfo.title}
+    </h1>
+    <p class="mt-4 text-base text-sand-100 sm:text-lg">
+      {tripInfo.subtitle}
+    </p>
+
+    <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+      {tripInfo.stats.map((stat) => (
+        <div class="rounded-2xl bg-white/10 px-4 py-5 backdrop-blur-sm">
+          <div class="font-serif text-2xl font-bold sm:text-3xl">{stat.value}</div>
+          <div class="mt-1 text-xs uppercase tracking-wide text-sand-200 sm:text-sm">{stat.label}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

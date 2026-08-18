@@ -1,0 +1,19 @@
+---
+import weather from "../data/weather.json";
+---
+
+<section id="weather" class="px-4 py-14 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-6xl">
+    <h2 class="font-serif text-2xl font-bold text-teal-800 sm:text-3xl">Weather &amp; Sea Conditions</h2>
+    <p class="mt-2 max-w-2xl text-sm text-teal-700">26–28 August 2026</p>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {weather.map((w) => (
+        <div class="rounded-xl border border-teal-800/10 bg-sand-100 p-5">
+          <h3 class="font-serif text-lg font-semibold text-teal-800">{w.title}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-teal-900/80">{w.summary}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
