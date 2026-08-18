@@ -1,17 +1,17 @@
 [
   {
     "slug": "plan-01",
-    "label": "Plan 01",
-    "description": "Original — kayaking Day 1 morning, Pigeon Island Day 2 morning, Day 2 returns to Verandas for an afternoon rest block before the evening departure."
+    "label": "Plan 01 (Original)",
+    "description": "Kayaking at Kantale on the Day 2 return leg. Day 1 covers Velgam Vehera, Kanniya Hot Springs, Marble Beach, and Koneswaram Temple. Day 2 is Pigeon Island snorkelling, then dinner at Habarana/Dambulla on the way home rather than returning to Verandas."
   },
   {
     "slug": "plan-02",
-    "label": "Plan 02",
-    "description": "Kayaking moved to the Day 2 return leg (afternoon); Day 2 never returns to Verandas; breakfast pushed to 7:00 AM; dinner moves to Habarana/Dambulla."
+    "label": "Plan 02 (current)",
+    "description": "Kayaking at Kantale on Day 1 morning, right after breakfast. Day 1 also covers Marble Beach and Koneswaram Temple. Day 2 is Pigeon Island snorkelling followed by Velgam Vehera and Kanniya Hot Springs on the way back, then dinner at Habarana/Dambulla instead of returning to Verandas."
   },
   {
     "slug": "plan-03",
-    "label": "Plan 03 (current)",
-    "description": "Kayaking stays on Day 1 morning (120 min) with breakfast moved to Kantale itself instead of idling at Habarana; Velgam Vehera/Kanniya moved to Day 2; Day 2 still never returns to Verandas."
+    "label": "Plan 03",
+    "description": "Kayaking at Kantale, Velgam Vehera, Kanniya Hot Springs, Marble Beach, and Koneswaram Temple all on Day 1. Day 2 is Pigeon Island snorkelling, then a return to Verandas for an afternoon rest block and dinner before the evening departure."
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "label": "Day 2 — Thursday, 27 August 2026 (Full sightseeing day)",
+  "label": "Day 2 — Thursday, 27 August 2026 (Sightseeing day, no return to the accommodation)",
   "items": [
     {
       "start": "7:00 AM",
@@ -16,6 +16,17 @@
     {
       "start": "7:45 AM",
       "end": "8:15 AM",
+      "location": "Verandas",
+      "activity": "Pack, check out, load all luggage — final departure from the accommodation",
+      "duration": "30 min",
+      "travel": null,
+      "why": "We're not coming back, so the full checkout happens now rather than at 5:30 PM",
+      "note": null,
+      "locationId": "verandas"
+    },
+    {
+      "start": "8:15 AM",
+      "end": "8:45 AM",
       "location": "En route",
       "activity": "Drive to Nilaveli / Pigeon Island ticket office",
       "duration": "30 min",
@@ -24,8 +35,8 @@
       "note": null
     },
     {
-      "start": "8:15 AM",
-      "end": "9:00 AM",
+      "start": "8:45 AM",
+      "end": "9:30 AM",
       "location": "Nilaveli",
       "activity": "Buy Wildlife Dept. tickets, arrange boats, safety briefing",
       "duration": "45 min",
@@ -35,8 +46,8 @@
       "locationId": "nilaveli"
     },
     {
-      "start": "9:00 AM",
-      "end": "9:15 AM",
+      "start": "9:30 AM",
+      "end": "9:45 AM",
       "location": "Boat to Pigeon Island",
       "activity": "Boat to Pigeon Island",
       "duration": "15 min",
@@ -45,19 +56,19 @@
       "note": null
     },
     {
-      "start": "9:15 AM",
-      "end": "10:45 AM",
+      "start": "9:45 AM",
+      "end": "12:15 PM",
       "location": "Pigeon Island",
       "activity": "Snorkelling & beach",
-      "duration": "90 min",
+      "duration": "150 min",
       "travel": null,
-      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up",
+      "why": "Morning is the best light and calmest water in the May–Sept season, before the afternoon breeze picks up. Extended from 90 to 150 min since the day no longer needs to rush back to Verandas — this is the trip's highest-value activity",
       "note": null,
       "locationId": "pigeon-island"
     },
     {
-      "start": "10:45 AM",
-      "end": "11:00 AM",
+      "start": "12:15 PM",
+      "end": "12:30 PM",
       "location": "Boat back to Nilaveli",
       "activity": "Boat back to Nilaveli",
       "duration": "15 min",
@@ -66,19 +77,19 @@
       "note": null
     },
     {
-      "start": "11:00 AM",
-      "end": "11:45 AM",
+      "start": "12:30 PM",
+      "end": "1:00 PM",
       "location": "Nilaveli Beach",
       "activity": "Relax, dry off, photos",
-      "duration": "45 min",
+      "duration": "30 min",
       "travel": null,
-      "why": "Late-morning light, still before peak heat",
+      "why": "Shortened from 45 min — less needed now that Pigeon Island itself is longer",
       "note": null,
       "locationId": "nilaveli"
     },
     {
-      "start": "11:45 AM",
-      "end": "1:00 PM",
+      "start": "1:00 PM",
+      "end": "2:15 PM",
       "location": "Nilaveli/Uppuveli",
       "activity": "Lunch",
       "duration": "75 min",
@@ -89,65 +100,62 @@
       "locationId": "nilaveli"
     },
     {
-      "start": "1:00 PM",
-      "end": "1:30 PM",
+      "start": "2:15 PM",
+      "end": "3:25 PM",
       "location": "En route",
-      "activity": "Drive back to Verandas",
-      "duration": "30 min",
-      "travel": "~15 km",
-      "why": null,
+      "activity": "Drive to Kantale",
+      "duration": "70 min",
+      "travel": "~52 km",
+      "why": "First leg of the return journey — Kantale sits on the way back toward the A6",
       "note": null
     },
     {
-      "start": "1:30 PM",
-      "end": "4:30 PM",
-      "location": "Verandas",
-      "activity": "Free/rest time",
-      "duration": "3 hrs",
+      "start": "3:25 PM",
+      "end": "5:25 PM",
+      "location": "Kantale (Agbo Adventures)",
+      "activity": "Kayaking",
+      "duration": "120 min",
       "travel": null,
-      "why": "Deliberately generous — absorbs any delays from earlier, lets people shower, nap, and pack before the long return drive",
-      "note": null,
-      "locationId": "verandas"
+      "why": "Extended from 90 to 120 min. Afternoon trades away the ideal cool-morning-calm-water window, but stays well clear of the ~6:14–6:21 PM sunset — a deliberate tradeoff to avoid a wasted round trip back to Verandas",
+      "note": "⚠️ Loses the cool-morning-calm-water advantage the original Day 1 slot had — a deliberate tradeoff, not an oversight.",
+      "locationId": "kantale"
     },
     {
-      "start": "4:30 PM",
-      "end": "5:30 PM",
-      "location": "Verandas",
+      "start": "5:25 PM",
+      "end": "6:35 PM",
+      "location": "En route",
+      "activity": "Drive to Habarana/Dambulla area",
+      "duration": "70 min",
+      "travel": "~50 km",
+      "why": "Same road as the outbound Habarana↔Kantale leg",
+      "note": null
+    },
+    {
+      "start": "6:35 PM",
+      "end": "7:50 PM",
+      "location": "Habarana/Dambulla area",
       "activity": "Dinner",
-      "duration": "60 min",
+      "duration": "75 min",
       "travel": null,
-      "why": "Scheduled early enough that departure isn't rushed",
+      "why": "Replaces the accommodation dinner, since the group no longer returns to Verandas; same restaurant zone used for 26 Aug breakfast",
       "note": null,
-      "meal": true,
-      "locationId": "verandas"
+      "meal": true
     },
     {
-      "start": "5:30 PM",
-      "end": "6:00 PM",
-      "location": "Verandas",
-      "activity": "Pack, load luggage, board bus",
-      "duration": "30 min",
-      "travel": null,
-      "why": "Genuine buffer for 16 people + bags",
-      "note": null,
-      "locationId": "verandas"
-    },
-    {
-      "start": "6:00 PM",
+      "start": "7:50 PM",
       "end": null,
-      "location": "Verandas",
-      "activity": "Depart",
+      "location": "Habarana/Dambulla area",
+      "activity": "Depart for Athurugiriya",
       "duration": null,
       "travel": null,
-      "why": "Sets up the 1:15–1:30 AM arrival target",
-      "note": null,
-      "locationId": "verandas"
+      "why": "Sets up the ~1:30 AM arrival target with a comfortable buffer",
+      "note": null
     }
   ],
   "returnJourney": {
     "label": "Return Journey (27–28 August)",
-    "start": "6:00 PM (27 Aug)",
-    "end": "~1:15–1:30 AM (28 Aug)",
-    "notes": "~7h15–7h30 total, including one ~20–30 min rest stop. Fewer stops than the outbound leg, as requested, since it's an overnight return with dinner already done."
+    "start": "7:50 PM (27 Aug)",
+    "end": "~1:30 AM (28 Aug)",
+    "notes": "~5h40 available for a ~180 km leg (Habarana/Dambulla → Athurugiriya via Kurunegala), including one rest stop — noticeably more slack than the original 260 km/6h45–7h00 return, since kayaking, dinner, and ~150 km of the route are now covered earlier in the day."
   }
 }

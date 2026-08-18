@@ -1,5 +1,5 @@
 {
   "description": "Chronological route order across both days, used to draw the connecting line on the map.",
-  "day1": ["velgam-vehera", "kanniya", "marble-beach", "koneswaram", "verandas"],
-  "day2": ["verandas", "nilaveli", "pigeon-island", "nilaveli", "kantale"]
+  "day1": ["kantale", "marble-beach", "koneswaram", "verandas"],
+  "day2": ["verandas", "nilaveli", "pigeon-island", "nilaveli", "velgam-vehera", "kanniya"]
 }

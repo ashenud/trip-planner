@@ -1,33 +1,20 @@
 [
   {
-    "id": "velgam-vehera",
+    "id": "kantale",
     "order": 1,
-    "name": "Velgam Vehera Buddhist Temple",
-    "shortName": "Velgam Vehera",
-    "address": "Velgam Vehera, Trincomalee District",
-    "lat": 8.6472,
-    "lng": 81.1697,
-    "hours": "Open daily (no ticket queue)",
-    "description": "Ancient Buddhist stupa, flat and shaded, easy for a large group.",
-    "notes": "Free, large car park, ~5-min flat walk to the ruins.",
-    "image": "/images/velgam-vehera.jpg"
-  },
-  {
-    "id": "kanniya",
-    "order": 2,
-    "name": "Kanniya Hot Water Springs",
-    "shortName": "Kanniya Hot Springs",
-    "address": "Kanniya, Trincomalee District",
-    "lat": 8.6045,
-    "lng": 81.1713,
-    "hours": "6/7 AM–7 PM",
-    "description": "Seven ancient wells of naturally warm water — treated as a short photo/cultural stop.",
-    "notes": "Basket-bathing facilities get crowded and are reported as poorly maintained; a full soak for 16 people would consume 2+ hours, so this is a 45-minute visit rather than a full bathing session.",
-    "image": "/images/kanniya-hot-springs.jpg"
+    "name": "Kayaking Kantale — Agbo Adventures",
+    "shortName": "Kantale Kayaking",
+    "address": "85 Junction, Agbopura (on the A6, Ambepussa–Kurunegala–Trincomalee Highway)",
+    "lat": 8.3353,
+    "lng": 80.9768,
+    "hours": "7:00 AM–6:30 PM",
+    "description": "Kayaking on the Kantale reservoir, right on the A6 route.",
+    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on your A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town. Stays in its ideal cool-morning Day 1 slot and is extended to 120 minutes — room for that comes from moving Velgam Vehera and Kanniya to Day 2.",
+    "image": "/images/kayaking-kantale.avif"
   },
   {
     "id": "marble-beach",
-    "order": 3,
+    "order": 2,
     "name": "Marble Beach",
     "shortName": "Marble Beach",
     "address": "Marble Beach, Trincomalee",
@@ -40,7 +27,7 @@
   },
   {
     "id": "koneswaram",
-    "order": 4,
+    "order": 3,
     "name": "Thirukoneswaram Kovil (Koneswaram Temple), Fort Frederick",
     "shortName": "Koneswaram Temple",
     "address": "Fort Frederick, Trincomalee",
@@ -53,7 +40,7 @@
   },
   {
     "id": "verandas",
-    "order": 5,
+    "order": 4,
     "name": "Verandas, Trincomalee",
     "shortName": "Verandas (Accommodation)",
     "address": "Trincomalee",
@@ -66,7 +53,7 @@
   },
   {
     "id": "nilaveli",
-    "order": 6,
+    "order": 5,
     "name": "Nilaveli Beach",
     "shortName": "Nilaveli Beach",
     "address": "Nilaveli, Trincomalee District",
@@ -79,7 +66,7 @@
   },
   {
     "id": "pigeon-island",
-    "order": 7,
+    "order": 6,
     "name": "Pigeon Island Marine National Park",
     "shortName": "Pigeon Island",
     "address": "Pigeon Island, off Nilaveli",
@@ -91,16 +78,29 @@
     "image": "/images/pigeon-island.jpg"
   },
   {
-    "id": "kantale",
+    "id": "velgam-vehera",
+    "order": 7,
+    "name": "Velgam Vehera Buddhist Temple",
+    "shortName": "Velgam Vehera",
+    "address": "Velgam Vehera, Trincomalee District",
+    "lat": 8.6472,
+    "lng": 81.1697,
+    "hours": "Open daily (no ticket queue)",
+    "description": "Ancient Buddhist stupa, flat and shaded, easy for a large group.",
+    "notes": "Free, large car park, ~5-min flat walk to the ruins. Moved to Day 2, right after Pigeon Island — it sits only ~7 km from Nilaveli, so visiting it on the way home costs almost nothing extra.",
+    "image": "/images/velgam-vehera.jpg"
+  },
+  {
+    "id": "kanniya",
     "order": 8,
-    "name": "Kayaking Kantale — Agbo Adventures",
-    "shortName": "Kantale Kayaking",
-    "address": "85 Junction, Agbopura (on the A6, Ambepussa–Kurunegala–Trincomalee Highway)",
-    "lat": 8.3353,
-    "lng": 80.9768,
-    "hours": "7:00 AM–6:30 PM",
-    "description": "Kayaking on the Kantale reservoir, right on the A6 route.",
-    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on your A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town. Now visited on the Day 2 return leg (mid-afternoon) rather than Day 1 morning, so the group doesn't have to double back to Verandas after Pigeon Island — the cool-morning-calm-water advantage is traded for that, but it's still well clear of sunset.",
-    "image": "/images/kayaking-kantale.avif"
+    "name": "Kanniya Hot Water Springs",
+    "shortName": "Kanniya Hot Springs",
+    "address": "Kanniya, Trincomalee District",
+    "lat": 8.6045,
+    "lng": 81.1713,
+    "hours": "6/7 AM–7 PM",
+    "description": "Seven ancient wells of naturally warm water — treated as a short photo/cultural stop.",
+    "notes": "Basket-bathing facilities get crowded and are reported as poorly maintained; a full soak for 16 people would consume 2+ hours, so this is a 45-minute visit rather than a full bathing session. Moved to Day 2, right after Velgam Vehera, on the way home from Nilaveli.",
+    "image": "/images/kanniya-hot-springs.jpg"
   }
 ]

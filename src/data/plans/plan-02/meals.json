@@ -1,19 +1,19 @@
 [
   {
     "meal": "26 Aug Breakfast",
-    "zone": "Habarana/Dambulla area, on the A6",
+    "zone": "Kantale, at the kayaking put-in on the A6",
     "arrival": "7:00 AM",
     "departure": "8:00 AM",
     "duration": "60 min",
-    "fitsRoute": "Yes — pushed back from 5:30 AM so restaurants are reliably open and staffed for a 16-person group; a 90-min buffer absorbs the gap"
+    "fitsRoute": "Yes — moved from Habarana/Dambulla so the group drives while waiting for restaurants to open instead of idling; kayaking follows immediately, no extra drive"
   },
   {
     "meal": "26 Aug Lunch",
-    "zone": "Trincomalee town area (between Kanniya and Marble Beach)",
+    "zone": "Trincomalee town area",
     "arrival": "12:20 PM",
     "departure": "1:30 PM",
     "duration": "70 min",
-    "fitsRoute": "Yes — sits between the morning heritage stops and the afternoon beach"
+    "fitsRoute": "Yes — sits between the morning kayaking stop and the afternoon beach"
   },
   {
     "meal": "27 Aug Lunch",
@@ -26,9 +26,9 @@
   {
     "meal": "27 Aug Dinner",
     "zone": "Habarana/Dambulla area, on the A6",
-    "arrival": "6:35 PM",
-    "departure": "7:50 PM",
+    "arrival": "6:50 PM",
+    "departure": "8:05 PM",
     "duration": "75 min",
-    "fitsRoute": "Yes — no longer fixed at the accommodation, since Day 2 doesn't return to Verandas; same zone as 26 Aug breakfast, right after the Kantale kayaking stop"
+    "fitsRoute": "Yes — no longer fixed at the accommodation, since Day 2 doesn't return to Verandas; same zone as 26 Aug breakfast, reached on the way home from Kanniya"
   }
 ]

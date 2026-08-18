@@ -43,44 +43,33 @@
     },
     {
       "start": "5:30 AM",
-      "end": "6:30 AM",
+      "end": "7:00 AM",
+      "location": "Habarana/Dambulla area",
+      "activity": "Sunrise stop & wait for restaurants to open",
+      "duration": "90 min",
+      "travel": null,
+      "why": "Arriving at 5:30 AM is before most A6 tour-group restaurants are reliably staffed and ready for 16 people; this buffer lets sunrise (~5:56 AM) happen at an easy pace instead of rushing into an unreliable breakfast",
+      "note": null
+    },
+    {
+      "start": "7:00 AM",
+      "end": "8:00 AM",
       "location": "Habarana/Dambulla area",
       "activity": "Breakfast",
       "duration": "60 min",
       "travel": null,
-      "why": "Arrives right at sunrise (~5:56 AM); this stretch of the A6 has restaurants used to early tour-bus groups",
+      "why": "Restaurants on this stretch of the A6 are properly open and staffed for a tour-bus group by 7:00 AM",
       "note": null,
       "meal": true
     },
     {
-      "start": "6:30 AM",
-      "end": "7:40 AM",
-      "location": "En route",
-      "activity": "Drive to Kantale",
-      "duration": "70 min",
-      "travel": "~50 km",
-      "why": null,
-      "note": null
-    },
-    {
-      "start": "7:40 AM",
-      "end": "9:10 AM",
-      "location": "Kantale (Agbo Adventures)",
-      "activity": "Kayaking",
-      "duration": "90 min",
-      "travel": null,
-      "why": "Cool morning air and calm water before the tank gets breezy and hot by late morning",
-      "note": null,
-      "locationId": "kantale"
-    },
-    {
-      "start": "9:10 AM",
+      "start": "8:00 AM",
       "end": "10:10 AM",
       "location": "En route",
-      "activity": "Drive to Velgam Vehera",
-      "duration": "60 min",
-      "travel": "~45 km",
-      "why": null,
+      "activity": "Drive to Velgam Vehera (via Kantale, no stop — kayaking moved to the Day 2 return leg)",
+      "duration": "130 min",
+      "travel": "~95 km",
+      "why": "Same road as before; skipping the Kantale stop here is exactly what makes room for the later breakfast without moving the 6:00 PM Verandas target",
       "note": null
     },
     {

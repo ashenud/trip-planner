@@ -6,7 +6,7 @@
     },
     {
       "title": "Koneswaram Temple",
-      "detail": "Hard closing time (6:45 PM) and a fixed 6:00 PM accommodation target on the same day create the tightest window in the whole plan."
+      "detail": "Hard closing time (6:45 PM) and a fixed 6:00 PM accommodation target on the same day create the tightest window on Day 1."
     },
     {
       "title": "Kanniya Hot Springs",
@@ -17,15 +17,24 @@
       "detail": "Every stop has a \"get 16 people off/on the bus\" tax; delays compound across the day rather than staying isolated."
     },
     {
+      "title": "Afternoon kayaking at Kantale",
+      "detail": "Moved off its ideal cool-morning-calm-water slot to fit the Day 2 return leg. If Pigeon Island or lunch overruns, this is the activity with the least slack behind it before sunset (~6:14–6:21 PM) — watch the 5:25 PM departure-from-Kantale time closely."
+    },
+    {
+      "title": "No dedicated rest block on Day 2",
+      "detail": "The old 3-hour Verandas rest block is gone now that the group doesn't return there. The extended Pigeon Island and lunch stops are the only real breathing room before the long overnight drive; if the group is visibly fatigued, that's the first place to add time back, not cut it."
+    },
+    {
       "title": "Return journey",
-      "detail": "Driver fatigue and night driving after two long days is the single biggest safety factor; the 3-hour rest block on Day 2 afternoon exists mainly to protect this."
+      "detail": "Driver fatigue and night driving after two long days is the single biggest safety factor. Day 2 now has more built-in slack on the final leg (~5h40 available for a ~4h30–5h leg) specifically to protect this."
     }
   ],
   "contingencySteps": [
-    "First cut: shorten or skip Kanniya Hot Springs (lowest cost to the overall experience).",
-    "Second cut: shorten Marble Beach to 45–60 min rather than 90.",
-    "Protect Koneswaram Temple and the 6:00 PM Verandas arrival above the above two — reorder if needed so the group reaches the temple with enough time left before its 6:45 PM close, even if that means a slightly later arrival at the accommodation.",
-    "On Day 2, if Pigeon Island logistics overrun, shorten the Nilaveli Beach relax time (11:00–11:45 AM) rather than cut into Pigeon Island itself.",
-    "Protect the 6:00 PM Day 2 departure above everything else — the 3-hour afternoon rest block (1:30–4:30 PM) is designed to be trimmed first if the day is running behind."
+    "Day 1 — first cut: shorten or skip Kanniya Hot Springs (lowest cost to the overall experience).",
+    "Day 1 — second cut: shorten Marble Beach to 45–60 min rather than 90.",
+    "Day 1 — protect Koneswaram Temple and the 6:00 PM Verandas arrival above the above two — reorder if needed so the group reaches the temple with enough time left before its 6:45 PM close, even if that means a slightly later arrival at the accommodation.",
+    "Day 2 — if Pigeon Island logistics overrun, shorten the boat-back/dry-off buffer (12:15–1:00 PM) rather than cut into Pigeon Island itself — it's the trip's highest-value activity and now has room to give.",
+    "Day 2 — if still behind by kayaking time, shorten the Kantale stop (120 min has 30 min of slack built in versus the original 90) rather than push the Habarana/Dambulla dinner past dark.",
+    "Day 2 — protect the ~7:50 PM departure from Habarana/Dambulla above everything else — the return leg's ~50–70 min of extra buffer (versus the original return timing) is designed to be trimmed first if the day is running behind."
   ]
 }

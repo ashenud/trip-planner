@@ -48,20 +48,21 @@ No environment variables or server config are required for any of the above.
 ## Multiple plans
 
 The site supports several **named, independent versions of the itinerary** —
-a dropdown in the top nav switches between them, and picking an older plan
-never affects the others. This exists because trip plans get revised several
-times before a trip, and it's useful to keep the history around (and compare)
-rather than overwrite each revision.
+a dropdown in the hero section switches between them, and picking an older
+plan never affects the others. This exists because trip plans get revised
+several times before a trip, and it's useful to keep the history around (and
+compare) rather than overwrite each revision.
 
-- `/` and `/plans/plan-03/` — the latest/current plan
-- `/plans/plan-01/`, `/plans/plan-02/` — earlier revisions, kept for reference
+- `/` and `/plans/plan-02/` — the current plan
+- `/plans/plan-01/` — the original plan, kept for reference
+- `/plans/plan-03/` — a later variant, kept for reference
 - `src/data/plans/index.json` — the manifest that drives the dropdown (slug,
-  label, one-line description of what changed in that plan)
+  label, one-line description of what that plan does)
 - `/plans/[plan].astro` — a single dynamic route that renders every plan
   folder under `src/data/plans/` automatically; adding a new plan folder +
   a manifest entry is all a new plan page needs, no new page file required
 - `src/pages/index.astro` — statically points at whichever plan folder is
-  "current" (currently `plan-03`); update this import when a new plan
+  "current" (currently `plan-02`); update this import when a new plan
   supersedes it
 
 Each plan is a self-contained folder, structured identically:
