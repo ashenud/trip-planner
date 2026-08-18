@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "plan-01",
+    "label": "Plan 01",
+    "description": "Original — kayaking Day 1 morning, Pigeon Island Day 2 morning, Day 2 returns to Verandas for an afternoon rest block before the evening departure."
+  },
+  {
+    "slug": "plan-02",
+    "label": "Plan 02",
+    "description": "Kayaking moved to the Day 2 return leg (afternoon); Day 2 never returns to Verandas; breakfast pushed to 7:00 AM; dinner moves to Habarana/Dambulla."
+  },
+  {
+    "slug": "plan-03",
+    "label": "Plan 03 (current)",
+    "description": "Kayaking stays on Day 1 morning and is extended to 120 min; Velgam Vehera and Kanniya move to Day 2 (near Nilaveli) to make room; Day 2 still never returns to Verandas."
+  }
+]

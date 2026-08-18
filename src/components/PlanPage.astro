@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "./Nav.astro";
+import Hero from "./Hero.astro";
+import DayTimeline from "./DayTimeline.astro";
+import MapSection from "./MapSection.astro";
+import MealsSection from "./MealsSection.astro";
+import WeatherSection from "./WeatherSection.astro";
+import RisksSection from "./RisksSection.astro";
+import LocationsGallery from "./LocationsGallery.astro";
+import Footer from "./Footer.astro";
+import plans from "../data/plans/index.json";
+
+export interface Props {
+  slug: string;
+  tripInfo: any;
+  locations: any[];
+  day1: any;
+  day2: any;
+  route: any;
+  meals: any[];
+  weather: any[];
+  risks: any;
+}
+
+const { slug, tripInfo, locations, day1, day2, route, meals, weather, risks } = Astro.props;
+
+const currentPlan = plans.find((p) => p.slug === slug);
+const planLabel = currentPlan?.label ?? slug;
+---
+
+<Layout title={`${tripInfo.title} — ${tripInfo.dates} (${planLabel})`}>
+  <Nav activeSlug={slug} />
+  <Hero tripInfo={tripInfo} planLabel={planLabel} />
+  <DayTimeline id="day1" label={day1.label} items={day1.items} />
+  <DayTimeline id="day2" label={day2.label} items={day2.items}>
+    <div class="mt-8 rounded-xl border border-sunset-500/30 bg-sunset-400/10 p-4 sm:p-5">
+      <h3 class="font-serif text-base font-semibold text-sunset-600">{day2.returnJourney.label}</h3>
+      <p class="mt-1 text-sm font-medium text-teal-800">
+        {day2.returnJourney.start} → {day2.returnJourney.end}
+      </p>
+      <p class="mt-1 text-sm text-teal-900/80">{day2.returnJourney.notes}</p>
+    </div>
+  </DayTimeline>
+  <MapSection locations={locations} route={route} />
+  <MealsSection meals={meals} />
+  <WeatherSection weather={weather} />
+  <RisksSection risks={risks} />
+  <LocationsGallery locations={locations} />
+  <Footer />
+</Layout>

@@ -1,5 +1,12 @@
 ---
-import risks from "../data/risks.json";
+export interface Props {
+  risks: {
+    vulnerablePoints: Array<{ title: string; detail: string }>;
+    contingencySteps: string[];
+  };
+}
+
+const { risks } = Astro.props;
 ---
 
 <section id="risks" class="px-4 py-14 sm:px-6 sm:py-20">

@@ -1,7 +1,17 @@
 ---
-import locations from "../data/locations.json";
 import { withBase } from "../utils/paths";
 
+export interface Props {
+  locations: Array<{
+    order: number;
+    shortName: string;
+    description: string;
+    hours: string;
+    image: string;
+  }>;
+}
+
+const { locations } = Astro.props;
 const sorted = [...locations].sort((a, b) => a.order - b.order);
 ---
 

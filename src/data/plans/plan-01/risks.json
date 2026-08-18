@@ -1,0 +1,31 @@
+{
+  "vulnerablePoints": [
+    {
+      "title": "Pigeon Island",
+      "detail": "Weather, rough sea, or a slow ticket queue could eat into the morning window. It's also the one activity that can't easily be moved to the afternoon (crowds and wind both increase later in the day)."
+    },
+    {
+      "title": "Koneswaram Temple",
+      "detail": "Hard closing time (6:45 PM) and a fixed 6:00 PM accommodation target on the same day create the tightest window in the whole plan."
+    },
+    {
+      "title": "Kanniya Hot Springs",
+      "detail": "Reports of long queues for the bathing baskets; the plan treats it as a quick visit specifically to avoid this risk."
+    },
+    {
+      "title": "Group size itself",
+      "detail": "Every stop has a \"get 16 people off/on the bus\" tax; delays compound across the day rather than staying isolated."
+    },
+    {
+      "title": "Return journey",
+      "detail": "Driver fatigue and night driving after two long days is the single biggest safety factor; the 3-hour rest block on Day 2 afternoon exists mainly to protect this."
+    }
+  ],
+  "contingencySteps": [
+    "First cut: shorten or skip Kanniya Hot Springs (lowest cost to the overall experience).",
+    "Second cut: shorten Marble Beach to 45–60 min rather than 90.",
+    "Protect Koneswaram Temple and the 6:00 PM Verandas arrival above the above two — reorder if needed so the group reaches the temple with enough time left before its 6:45 PM close, even if that means a slightly later arrival at the accommodation.",
+    "On Day 2, if Pigeon Island logistics overrun, shorten the Nilaveli Beach relax time (11:00–11:45 AM) rather than cut into Pigeon Island itself.",
+    "Protect the 6:00 PM Day 2 departure above everything else — the 3-hour afternoon rest block (1:30–4:30 PM) is designed to be trimmed first if the day is running behind."
+  ]
+}

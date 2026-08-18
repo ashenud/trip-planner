@@ -1,4 +1,13 @@
 ---
+import plans from "../data/plans/index.json";
+import { withBase } from "../utils/paths";
+
+export interface Props {
+  activeSlug: string;
+}
+
+const { activeSlug } = Astro.props;
+
 const links = [
   { href: "#day1", label: "Day 1" },
   { href: "#day2", label: "Day 2" },
@@ -8,6 +17,8 @@ const links = [
   { href: "#risks", label: "Risks" },
   { href: "#locations", label: "Locations" },
 ];
+
+const activePlan = plans.find((p) => p.slug === activeSlug);
 ---
 
 <header class="sticky top-0 z-50 border-b border-teal-800/10 bg-sand-50/90 backdrop-blur">
@@ -26,6 +37,30 @@ const links = [
           </a>
         </li>
       ))}
+      <li class="shrink-0">
+        <details class="group relative">
+          <summary class="flex cursor-pointer list-none items-center gap-1 rounded-full bg-teal-700 px-3 py-1.5 font-semibold text-sand-50 select-none hover:bg-teal-600">
+            {activePlan?.label ?? activeSlug}
+            <span class="text-xs transition-transform group-open:rotate-180">▾</span>
+          </summary>
+          <ul class="absolute right-0 z-50 mt-2 w-64 overflow-hidden rounded-xl border border-teal-800/10 bg-white shadow-lg">
+            {plans.map((plan) => (
+              <li>
+                <a
+                  href={withBase(`/plans/${plan.slug}/`)}
+                  class:list={[
+                    "block px-4 py-3 text-sm hover:bg-sand-100",
+                    plan.slug === activeSlug ? "bg-sand-100 font-semibold text-teal-800" : "text-teal-700",
+                  ]}
+                >
+                  <div>{plan.label}</div>
+                  <div class="mt-0.5 text-xs font-normal text-teal-600/80">{plan.description}</div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      </li>
     </ul>
   </nav>
 </header>

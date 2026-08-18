@@ -1,37 +1,23 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Nav from "../components/Nav.astro";
-import Hero from "../components/Hero.astro";
-import DayTimeline from "../components/DayTimeline.astro";
-import MapSection from "../components/MapSection.astro";
-import MealsSection from "../components/MealsSection.astro";
-import WeatherSection from "../components/WeatherSection.astro";
-import RisksSection from "../components/RisksSection.astro";
-import LocationsGallery from "../components/LocationsGallery.astro";
-import Footer from "../components/Footer.astro";
-
-import day1 from "../data/day1.json";
-import day2 from "../data/day2.json";
-import tripInfo from "../data/tripInfo.json";
+import PlanPage from "../components/PlanPage.astro";
+import tripInfo from "../data/plans/plan-03/tripInfo.json";
+import locations from "../data/plans/plan-03/locations.json";
+import day1 from "../data/plans/plan-03/day1.json";
+import day2 from "../data/plans/plan-03/day2.json";
+import route from "../data/plans/plan-03/route.json";
+import meals from "../data/plans/plan-03/meals.json";
+import weather from "../data/plans/plan-03/weather.json";
+import risks from "../data/plans/plan-03/risks.json";
 ---
 
-<Layout title={`${tripInfo.title} — ${tripInfo.dates}`}>
-  <Nav />
-  <Hero />
-  <DayTimeline id="day1" label={day1.label} items={day1.items} />
-  <DayTimeline id="day2" label={day2.label} items={day2.items}>
-    <div class="mt-8 rounded-xl border border-sunset-500/30 bg-sunset-400/10 p-4 sm:p-5">
-      <h3 class="font-serif text-base font-semibold text-sunset-600">{day2.returnJourney.label}</h3>
-      <p class="mt-1 text-sm font-medium text-teal-800">
-        {day2.returnJourney.start} → {day2.returnJourney.end}
-      </p>
-      <p class="mt-1 text-sm text-teal-900/80">{day2.returnJourney.notes}</p>
-    </div>
-  </DayTimeline>
-  <MapSection />
-  <MealsSection />
-  <WeatherSection />
-  <RisksSection />
-  <LocationsGallery />
-  <Footer />
-</Layout>
+<PlanPage
+  slug="plan-03"
+  tripInfo={tripInfo}
+  locations={locations}
+  day1={day1}
+  day2={day2}
+  route={route}
+  meals={meals}
+  weather={weather}
+  risks={risks}
+/>

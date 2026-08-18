@@ -1,0 +1,63 @@
+---
+import PlanPage from "../../components/PlanPage.astro";
+import plans from "../../data/plans/index.json";
+
+export function getStaticPaths() {
+  const tripInfoFiles = import.meta.glob("../../data/plans/*/tripInfo.json", { eager: true });
+  const locationsFiles = import.meta.glob("../../data/plans/*/locations.json", { eager: true });
+  const day1Files = import.meta.glob("../../data/plans/*/day1.json", { eager: true });
+  const day2Files = import.meta.glob("../../data/plans/*/day2.json", { eager: true });
+  const routeFiles = import.meta.glob("../../data/plans/*/route.json", { eager: true });
+  const mealsFiles = import.meta.glob("../../data/plans/*/meals.json", { eager: true });
+  const weatherFiles = import.meta.glob("../../data/plans/*/weather.json", { eager: true });
+  const risksFiles = import.meta.glob("../../data/plans/*/risks.json", { eager: true });
+
+  const slugFromPath = (path: string) => path.match(/\/plans\/([^/]+)\//)?.[1] ?? "";
+
+  const byFile = (files: Record<string, any>) => {
+    const map: Record<string, any> = {};
+    for (const [path, mod] of Object.entries(files)) {
+      map[slugFromPath(path)] = (mod as any).default;
+    }
+    return map;
+  };
+
+  const tripInfoBySlug = byFile(tripInfoFiles);
+  const locationsBySlug = byFile(locationsFiles);
+  const day1BySlug = byFile(day1Files);
+  const day2BySlug = byFile(day2Files);
+  const routeBySlug = byFile(routeFiles);
+  const mealsBySlug = byFile(mealsFiles);
+  const weatherBySlug = byFile(weatherFiles);
+  const risksBySlug = byFile(risksFiles);
+
+  return plans.map((plan) => ({
+    params: { plan: plan.slug },
+    props: {
+      slug: plan.slug,
+      tripInfo: tripInfoBySlug[plan.slug],
+      locations: locationsBySlug[plan.slug],
+      day1: day1BySlug[plan.slug],
+      day2: day2BySlug[plan.slug],
+      route: routeBySlug[plan.slug],
+      meals: mealsBySlug[plan.slug],
+      weather: weatherBySlug[plan.slug],
+      risks: risksBySlug[plan.slug],
+    },
+  }));
+}
+
+const { slug, tripInfo, locations, day1, day2, route, meals, weather, risks } = Astro.props;
+---
+
+<PlanPage
+  slug={slug}
+  tripInfo={tripInfo}
+  locations={locations}
+  day1={day1}
+  day2={day2}
+  route={route}
+  meals={meals}
+  weather={weather}
+  risks={risks}
+/>

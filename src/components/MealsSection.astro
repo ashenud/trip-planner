@@ -1,5 +1,16 @@
 ---
-import meals from "../data/meals.json";
+export interface Props {
+  meals: Array<{
+    meal: string;
+    zone: string;
+    arrival: string;
+    departure: string;
+    duration: string;
+    fitsRoute: string;
+  }>;
+}
+
+const { meals } = Astro.props;
 ---
 
 <section id="meals" class="bg-teal-900 px-4 py-14 text-sand-50 sm:px-6 sm:py-20">

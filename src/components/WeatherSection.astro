@@ -1,5 +1,9 @@
 ---
-import weather from "../data/weather.json";
+export interface Props {
+  weather: Array<{ title: string; summary: string }>;
+}
+
+const { weather } = Astro.props;
 ---
 
 <section id="weather" class="px-4 py-14 sm:px-6 sm:py-20">

@@ -1,0 +1,183 @@
+{
+  "label": "Day 1 — Wednesday, 26 August 2026 (Outbound)",
+  "items": [
+    {
+      "start": "2:00 AM",
+      "end": null,
+      "location": "Athurugiriya",
+      "activity": "Depart",
+      "duration": null,
+      "travel": null,
+      "why": "Fixed departure",
+      "note": null
+    },
+    {
+      "start": "2:00 AM",
+      "end": "3:40 AM",
+      "location": "En route",
+      "activity": "Drive to Kurunegala (via Outer Circular Hwy + Central Expressway E04)",
+      "duration": "100 min",
+      "travel": "~110 km",
+      "why": "Expressway is fastest and emptiest at this hour",
+      "note": null
+    },
+    {
+      "start": "3:40 AM",
+      "end": "4:00 AM",
+      "location": "Near Kurunegala",
+      "activity": "Comfort stop",
+      "duration": "20 min",
+      "travel": null,
+      "why": "First natural break after ~1h40 of driving",
+      "note": null
+    },
+    {
+      "start": "4:00 AM",
+      "end": "5:30 AM",
+      "location": "En route",
+      "activity": "Drive to Habarana/Dambulla (A6)",
+      "duration": "90 min",
+      "travel": "~70 km",
+      "why": "Regular A-road once off the expressway",
+      "note": null
+    },
+    {
+      "start": "5:30 AM",
+      "end": "7:00 AM",
+      "location": "Habarana/Dambulla area",
+      "activity": "Sunrise stop & wait for restaurants to open",
+      "duration": "90 min",
+      "travel": null,
+      "why": "Arriving at 5:30 AM is before most A6 tour-group restaurants are reliably staffed and ready for 16 people; this buffer lets sunrise (~5:56 AM) happen at an easy pace instead of rushing into an unreliable breakfast",
+      "note": null
+    },
+    {
+      "start": "7:00 AM",
+      "end": "8:00 AM",
+      "location": "Habarana/Dambulla area",
+      "activity": "Breakfast",
+      "duration": "60 min",
+      "travel": null,
+      "why": "Restaurants on this stretch of the A6 are properly open and staffed for a tour-bus group by 7:00 AM",
+      "note": null,
+      "meal": true
+    },
+    {
+      "start": "8:00 AM",
+      "end": "9:10 AM",
+      "location": "En route",
+      "activity": "Drive to Kantale",
+      "duration": "70 min",
+      "travel": "~50 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "9:10 AM",
+      "end": "11:10 AM",
+      "location": "Kantale (Agbo Adventures)",
+      "activity": "Kayaking",
+      "duration": "120 min",
+      "travel": null,
+      "why": "Extended from 90 to 120 min — cool morning air and calm water before the tank gets breezy and hot by late morning. Room for the extra 30 min comes from moving Velgam Vehera and Kanniya to Day 2",
+      "note": null,
+      "locationId": "kantale"
+    },
+    {
+      "start": "11:10 AM",
+      "end": "12:20 PM",
+      "location": "En route",
+      "activity": "Drive to lunch venue (Trincomalee town area, via Velgam Vehera/Kanniya area, no stop — both moved to Day 2)",
+      "duration": "70 min",
+      "travel": "~50 km",
+      "why": "Velgam Vehera and Kanniya are skipped here, not driven around — they're picked up on Day 2's route home from Nilaveli instead",
+      "note": null
+    },
+    {
+      "start": "12:20 PM",
+      "end": "1:30 PM",
+      "location": "Trincomalee town area",
+      "activity": "Lunch",
+      "duration": "70 min",
+      "travel": null,
+      "why": "Midday heat — good time to be seated indoors",
+      "note": null,
+      "meal": true
+    },
+    {
+      "start": "1:30 PM",
+      "end": "2:00 PM",
+      "location": "En route",
+      "activity": "Drive to Marble Beach",
+      "duration": "30 min",
+      "travel": "~15 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "2:00 PM",
+      "end": "3:30 PM",
+      "location": "Marble Beach",
+      "activity": "Swim & relax",
+      "duration": "90 min",
+      "travel": null,
+      "why": "Calm, shallow, shaded resort beach handles early-afternoon heat better than an exposed public beach",
+      "note": null,
+      "locationId": "marble-beach"
+    },
+    {
+      "start": "3:30 PM",
+      "end": "4:00 PM",
+      "location": "En route",
+      "activity": "Drive to Koneswaram Temple",
+      "duration": "30 min",
+      "travel": "~10 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "4:00 PM",
+      "end": "5:45 PM",
+      "location": "Koneswaram Temple / Fort Frederick",
+      "activity": "Visit",
+      "duration": "105 min",
+      "travel": null,
+      "why": "Late-afternoon light, cooler air, temple open until 6:45 PM",
+      "note": "⚠️ Restriction: shoulders and knees must be covered and shoes removed before entering — plan a quick change out of beachwear at Marble Beach or on the bus. Vehicles drive through a checkpoint (ID may be checked) to a large car park, then it's a ~200 m walk up to the temple.",
+      "locationId": "koneswaram"
+    },
+    {
+      "start": "5:45 PM",
+      "end": "6:10 PM",
+      "location": "En route",
+      "activity": "Drive to Verandas",
+      "duration": "25 min",
+      "travel": "~6 km",
+      "why": null,
+      "note": null
+    },
+    {
+      "start": "6:10 PM",
+      "end": null,
+      "location": "Verandas",
+      "activity": "Arrive",
+      "duration": null,
+      "travel": null,
+      "why": "Same arrival time as the original plan — the later breakfast (+90 min) and longer kayaking (+30 min) are exactly offset by dropping Velgam Vehera and Kanniya from Day 1",
+      "note": null,
+      "locationId": "verandas"
+    },
+    {
+      "start": null,
+      "end": null,
+      "location": "Verandas",
+      "activity": "Dinner",
+      "duration": null,
+      "travel": null,
+      "why": "Fixed — at the accommodation",
+      "note": null,
+      "meal": true,
+      "locationId": "verandas"
+    }
+  ]
+}
