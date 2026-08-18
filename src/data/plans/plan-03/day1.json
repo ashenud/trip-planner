@@ -43,45 +43,55 @@
     },
     {
       "start": "5:30 AM",
-      "end": "7:00 AM",
+      "end": "5:50 AM",
       "location": "Habarana/Dambulla area",
-      "activity": "Sunrise stop & wait for restaurants to open",
-      "duration": "90 min",
+      "activity": "Short rest & stretch",
+      "duration": "20 min",
       "travel": null,
-      "why": "Arriving at 5:30 AM is before most A6 tour-group restaurants are reliably staffed and ready for 16 people; this buffer lets sunrise (~5:56 AM) happen at an easy pace instead of rushing into an unreliable breakfast",
+      "why": "No point idling for restaurants to open here — better to cover ground first and eat once we're actually at Kantale",
+      "note": null
+    },
+    {
+      "start": "5:50 AM",
+      "end": "7:00 AM",
+      "location": "En route",
+      "activity": "Drive to Kantale",
+      "duration": "70 min",
+      "travel": "~50 km",
+      "why": "Same leg as before, just moved ahead of breakfast instead of after it",
       "note": null
     },
     {
       "start": "7:00 AM",
       "end": "8:00 AM",
-      "location": "Habarana/Dambulla area",
+      "location": "Kantale",
       "activity": "Breakfast",
       "duration": "60 min",
       "travel": null,
-      "why": "Restaurants on this stretch of the A6 are properly open and staffed for a tour-bus group by 7:00 AM",
-      "note": null,
+      "why": "By 7:00 AM, arriving right at the kayaking put-in, Kantale's own roadside eateries should be open — no need to wait at Habarana first",
+      "note": "⚠️ Not independently verified like the Habarana/Dambulla zone; worth a same-day check with the kayaking operator, who'll know what's actually open",
       "meal": true
     },
     {
       "start": "8:00 AM",
-      "end": "9:10 AM",
-      "location": "En route",
-      "activity": "Drive to Kantale",
-      "duration": "70 min",
-      "travel": "~50 km",
-      "why": null,
-      "note": null
-    },
-    {
-      "start": "9:10 AM",
-      "end": "11:10 AM",
+      "end": "10:00 AM",
       "location": "Kantale (Agbo Adventures)",
       "activity": "Kayaking",
       "duration": "120 min",
       "travel": null,
-      "why": "Extended from 90 to 120 min — cool morning air and calm water before the tank gets breezy and hot by late morning. Room for the extra 30 min comes from moving Velgam Vehera and Kanniya to Day 2",
+      "why": "Extended from 90 to 120 min — cool morning air and calm water before the tank gets breezy and hot by late morning. Starts immediately after breakfast since the group is already there — no second drive needed",
       "note": null,
       "locationId": "kantale"
+    },
+    {
+      "start": "10:00 AM",
+      "end": "11:10 AM",
+      "location": "Kantale",
+      "activity": "Contingency buffer / flexible time",
+      "duration": "70 min",
+      "travel": null,
+      "why": "Reclaimed from cutting the old idle restaurant-wait and the redundant post-breakfast drive to Kantale. Deliberately left open rather than assigned, so a delay anywhere upstream (or a longer kayaking session) doesn't threaten Koneswaram's close time or the 6:00 PM Verandas target",
+      "note": null
     },
     {
       "start": "11:10 AM",
@@ -163,7 +173,7 @@
       "activity": "Arrive",
       "duration": null,
       "travel": null,
-      "why": "Same arrival time as the original plan — the later breakfast (+90 min) and longer kayaking (+30 min) are exactly offset by dropping Velgam Vehera and Kanniya from Day 1",
+      "why": "Same arrival time as the original plan. The later breakfast, longer kayaking, and a 70-min contingency buffer are all absorbed by dropping Velgam Vehera/Kanniya from Day 1 and cutting the old idle restaurant-wait",
       "note": null,
       "locationId": "verandas"
     },

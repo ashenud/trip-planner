@@ -9,7 +9,7 @@
 
 | Location | Verdict | Why |
 |---|---|---|
-| Kayaking, Kantale | ✅ Keep | Sits directly on your A6 route, ~40 km before Trincomalee. Zero detour. Stays in its ideal cool-morning slot on Day 1, and is extended to 120 minutes — room for that comes from moving Velgam Vehera and Kanniya to Day 2 instead. |
+| Kayaking, Kantale | ✅ Keep | Sits directly on your A6 route, ~40 km before Trincomalee. Zero detour. Stays in its ideal cool-morning slot on Day 1, and is extended to 120 minutes. Breakfast now happens here too, right before kayaking, instead of idling at Habarana/Dambulla for restaurants to open — the group drives while it waits instead of sitting still. |
 | Velgam Vehera | ✅ Keep | Flat, short walk from a large car park, no ticket queue, easy for a group of 16. Moved to Day 2, right after Pigeon Island — it sits only ~7 km from Nilaveli, so visiting it on the way home costs almost nothing extra. |
 | Kanniya Hot Water Springs | ✅ Keep (as a short visit) | Also moved to Day 2, immediately after Velgam Vehera (they're ~10 km apart, same as their original order). Still a 45-minute cultural/photo stop rather than a full bathing session — the basket-bathing facilities get crowded and are reported as poorly maintained, and a full soak for 16 people would consume 2+ hours. |
 | Marble Beach | ✅ Keep | Short hop from town, small entry fee, calm shallow water safe for a big group, Air Force–managed so cleaner and less chaotic than a public beach. |
@@ -57,10 +57,11 @@ If the group is unusually keen on Girihandu Seya, the only realistic way to fit 
 | 2:00 AM | 3:40 AM | En route | Drive to Kurunegala (via Outer Circular Hwy + Central Expressway E04) | 100 min | ~110 km | Expressway is fastest and emptiest at this hour |
 | 3:40 AM | 4:00 AM | Near Kurunegala | Comfort stop | 20 min | — | First natural break after ~1h40 of driving |
 | 4:00 AM | 5:30 AM | En route | Drive to Habarana/Dambulla (A6) | 90 min | ~70 km | Regular A-road once off the expressway |
-| 5:30 AM | 7:00 AM | Habarana/Dambulla area | Sunrise stop & wait for restaurants to open | 90 min | — | Arriving at 5:30 AM is before most A6 tour-group restaurants are reliably staffed and ready for 16 people; this buffer lets sunrise (~5:56 AM) happen at an easy pace instead of rushing into an unreliable breakfast |
-| 7:00 AM | 8:00 AM | Habarana/Dambulla area | **Breakfast** | 60 min | — | Restaurants on this stretch of the A6 are properly open and staffed for a tour-bus group by 7:00 AM |
-| 8:00 AM | 9:10 AM | En route | Drive to Kantale | 70 min | ~50 km | — |
-| 9:10 AM | 11:10 AM | Kantale (Agbo Adventures) | **Kayaking** | 120 min | — | Extended from 90 to 120 min — cool morning air and calm water before the tank gets breezy and hot by late morning. Room for the extra 30 min comes from moving Velgam Vehera and Kanniya to Day 2 |
+| 5:30 AM | 5:50 AM | Habarana/Dambulla area | Short rest & stretch | 20 min | — | No point idling for restaurants to open here — better to cover ground first and eat once we're actually at Kantale |
+| 5:50 AM | 7:00 AM | En route | Drive to Kantale | 70 min | ~50 km | Same leg as before, just moved ahead of breakfast instead of after it |
+| 7:00 AM | 8:00 AM | Kantale | **Breakfast** | 60 min | — | By 7:00 AM, arriving right at the kayaking put-in, Kantale's own roadside eateries should be open — no need to wait at Habarana first. ⚠️ Not independently verified like the Habarana/Dambulla zone; worth a same-day check with the kayaking operator, who'll know what's actually open |
+| 8:00 AM | 10:00 AM | Kantale (Agbo Adventures) | **Kayaking** | 120 min | — | Extended from 90 to 120 min — cool morning air and calm water before the tank gets breezy and hot by late morning. Starts immediately after breakfast since the group is already there — no second drive needed |
+| 10:00 AM | 11:10 AM | Kantale | Contingency buffer / flexible time | 70 min | — | Reclaimed from cutting the old idle restaurant-wait and the redundant post-breakfast drive to Kantale. Day 1 previously had almost no slack (see Risk & Contingency) — this is deliberately left open rather than assigned, so a delay anywhere upstream (or just a longer kayaking session) doesn't threaten Koneswaram's close time or the 6:00 PM Verandas target |
 | 11:10 AM | 12:20 PM | En route | Drive to lunch venue (Trincomalee town area, via Velgam Vehera/Kanniya area, no stop — both moved to Day 2) | 70 min | ~50 km | Velgam Vehera and Kanniya are skipped here, not driven around — they're picked up on Day 2's route home from Nilaveli instead |
 | 12:20 PM | 1:30 PM | Trincomalee town area | **Lunch** | 70 min | — | Midday heat — good time to be seated indoors |
 | 1:30 PM | 2:00 PM | En route | Drive to Marble Beach | 30 min | ~15 km | — |
@@ -68,7 +69,7 @@ If the group is unusually keen on Girihandu Seya, the only realistic way to fit 
 | 3:30 PM | 4:00 PM | En route | Drive to Koneswaram Temple | 30 min | ~10 km | — |
 | 4:00 PM | 5:45 PM | Koneswaram Temple / Fort Frederick | Visit | 105 min | — | Late-afternoon light, cooler air, temple open until 6:45 PM. **⚠️ Restriction: shoulders and knees must be covered and shoes removed before entering — plan a quick change out of beachwear at Marble Beach or on the bus.** Vehicles drive through a checkpoint (ID may be checked) to a large car park, then it's a ~200 m walk up to the temple. |
 | 5:45 PM | 6:10 PM | En route | Drive to Verandas | 25 min | ~6 km | — |
-| 6:10 PM | — | Verandas | **Arrive** | — | — | Same arrival time as the original plan — the later breakfast (+90 min) and longer kayaking (+30 min) are exactly offset by dropping Velgam Vehera and Kanniya from Day 1 |
+| 6:10 PM | — | Verandas | **Arrive** | — | — | Same arrival time as the original plan. The later breakfast, longer kayaking, and a 70-min contingency buffer are all absorbed by dropping Velgam Vehera/Kanniya from Day 1 and cutting the old idle restaurant-wait |
 | — | — | Verandas | **Dinner** | — | — | Fixed — at the accommodation |
 
 ### Day 2 — Thursday, 27 August 2026 (Sightseeing day, no return to the accommodation)
@@ -111,7 +112,7 @@ costs almost no extra driving.
 |---|---|---|---|---|
 | Athurugiriya → Kurunegala (Expressway E04) | ~110 km | ~1h20 | ~1h40 | 2:00–3:40 AM |
 | Kurunegala → Habarana/Dambulla (A6) | ~70 km | ~1h10 | ~1h30 | 4:00–5:30 AM |
-| Habarana → Kantale (A6) | ~50 km | ~50 min | ~1h10 | 8:00–9:10 AM |
+| Habarana → Kantale (A6) | ~50 km | ~50 min | ~1h10 | 5:50–7:00 AM |
 | Kantale → lunch venue (via Velgam Vehera/Kanniya area, no stop) | ~50 km | ~50 min | ~1h10 | 11:10 AM–12:20 PM |
 | Local Trinco-area loop (lunch → Marble Beach → Koneswaram → Verandas) | ~31 km total | ~40 min | ~1h25 (spread across 3 short hops, each with its own unload/reload time for 16 people) | 1:30 PM–6:10 PM |
 | Verandas → Nilaveli/Pigeon Island area (Day 2) | ~15 km | ~20 min | ~30 min | 8:15–8:45 AM |
@@ -127,7 +128,7 @@ costs almost no extra driving.
 
 | Meal | Where (geographically) | Arrival | Departure | Time allocated | Fits the route? |
 |---|---|---|---|---|---|
-| 26 Aug Breakfast | Habarana/Dambulla area, on the A6 | 7:00 AM | 8:00 AM | 60 min | Yes — pushed back from 5:30 AM so restaurants are reliably open and staffed for a 16-person group; a 90-min buffer absorbs the gap |
+| 26 Aug Breakfast | Kantale, at the kayaking put-in on the A6 | 7:00 AM | 8:00 AM | 60 min | Yes — moved from Habarana/Dambulla so the group drives while waiting for restaurants to open instead of idling; kayaking follows immediately, no extra drive |
 | 26 Aug Lunch | Trincomalee town area | 12:20 PM | 1:30 PM | 70 min | Yes — sits between the morning kayaking stop and the afternoon beach |
 | 27 Aug Lunch | Nilaveli/Uppuveli beach strip | 1:00 PM | 2:15 PM | 75 min | Yes — right where the group already is after Pigeon Island |
 | 27 Aug Dinner | Habarana/Dambulla area, on the A6 | 6:50 PM | 8:05 PM | 75 min | Yes — no longer fixed at the accommodation, since Day 2 doesn't return to Verandas; same zone as 26 Aug breakfast, reached on the way home from Kanniya |
@@ -143,21 +144,22 @@ costs almost no extra driving.
 - **Koneswaram Temple** — hard closing time (6:45 PM) and a fixed 6:00 PM accommodation target on the same day create the tightest window on Day 1.
 - **Kanniya Hot Springs** — reports of long queues for the bathing baskets; the plan treats it as a quick visit specifically to avoid this risk.
 - **Group size itself** — every stop has a "get 16 people off/on the bus" tax; delays compound across the day rather than staying isolated.
-- **Day 1's zero slack** — the later breakfast and longer kayaking are exactly offset by dropping Velgam Vehera/Kanniya, which means Day 1 has almost no built-in buffer left; a delay at kayaking, lunch, or Marble Beach ripples straight through to the 6:00 PM Verandas target.
+- **Kantale breakfast zone unverified** — unlike Habarana/Dambulla, this hasn't been independently confirmed as a reliable spot for a 16-person breakfast; worth a same-day check with the kayaking operator.
 - **No dedicated rest block on Day 2** — the old 3-hour Verandas rest block is gone now that the group doesn't return there. The extended Pigeon Island and lunch stops are the only real breathing room before the long overnight drive; if the group is visibly fatigued, that's the first place to add time back, not cut it.
 - **Return journey** — driver fatigue and night driving after two long days is the single biggest safety factor. Day 2 now has more built-in slack on the final leg (~5h10–5h25 available for a ~4h30–5h leg) specifically to protect this.
 
 **If running 1–2 hours late:**
 
 *Day 1:*
-1. First cut: shorten kayaking back toward 90–100 min (it has the most give of any Day 1 activity, having just been extended).
-2. Second cut: shorten **Marble Beach** to 45–60 min rather than 90.
-3. Protect **Koneswaram Temple** and the **6:00 PM Verandas arrival** above the above two — reorder if needed so the group reaches the temple with enough time left before its 6:45 PM close, even if that means a slightly later arrival at the accommodation.
+1. First cut: eat into the 10:00–11:10 AM contingency buffer at Kantale — that's exactly what it's there for.
+2. Second cut: shorten kayaking back toward 90–100 min.
+3. Third cut: shorten **Marble Beach** to 45–60 min rather than 90.
+4. Protect **Koneswaram Temple** and the **6:00 PM Verandas arrival** above the above three — reorder if needed so the group reaches the temple with enough time left before its 6:45 PM close, even if that means a slightly later arrival at the accommodation.
 
 *Day 2:*
-4. If Pigeon Island logistics overrun, shorten the boat-back/dry-off buffer (12:15–1:00 PM) rather than cut into Pigeon Island itself — it's the trip's highest-value activity and now has room to give.
-5. If still behind, shorten or skip **Kanniya Hot Springs** on the way home (lowest cost, same reasoning as the original plan) before touching Velgam Vehera.
-6. Protect the **~8:05 PM departure from Habarana/Dambulla** above everything else — the return leg's buffer is designed to be trimmed first if the day is running behind.
+5. If Pigeon Island logistics overrun, shorten the boat-back/dry-off buffer (12:15–1:00 PM) rather than cut into Pigeon Island itself — it's the trip's highest-value activity and now has room to give.
+6. If still behind, shorten or skip **Kanniya Hot Springs** on the way home (lowest cost, same reasoning as the original plan) before touching Velgam Vehera.
+7. Protect the **~8:05 PM departure from Habarana/Dambulla** above everything else — the return leg's buffer is designed to be trimmed first if the day is running behind.
 
 ---
 
@@ -167,7 +169,8 @@ This itinerary visits **7 of the 8 requested locations** — everything except G
 
 - Keeps both fixed points (arrive Verandas ≈6:00–6:15 PM on the 26th; arrive Athurugiriya ≈1:15–1:30 AM on the 28th)
 - Keeps both kayaking and Pigeon Island in their ideal cool-morning windows — kayaking on Day 1 (extended to 120 min), Pigeon Island on Day 2 (extended to 150 min now that Day 2 doesn't loop back to the accommodation)
-- De-rushes Day 1 by moving Velgam Vehera and Kanniya to Day 2, where they sit almost on the way home from Nilaveli anyway — this is what makes room for the longer kayaking session and the later, more reliable breakfast without moving the 6:00 PM Verandas target
+- De-rushes Day 1 by moving Velgam Vehera and Kanniya to Day 2, where they sit almost on the way home from Nilaveli anyway — this is what makes room for the longer kayaking session
+- Instead of idling at Habarana/Dambulla for restaurants to open, the group drives to Kantale first (a leg it needs anyway) and eats there right before kayaking — no second drive between breakfast and kayaking, and no time spent waiting. This also frees up a genuine 70-minute contingency buffer on Day 1, which previously had none
 - Restructures Day 2 into a single continuous day — breakfast, full checkout, sightseeing (now including Velgam Vehera and Kanniya), then straight into the return journey — instead of a mid-day back-and-forth to the accommodation
 - Leaves Girihandu Seya out for later trip rather than forcing it in at the cost of rest and pacing
 
