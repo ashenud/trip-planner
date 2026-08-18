@@ -1,20 +1,7 @@
 [
   {
-    "id": "kantale",
-    "order": 1,
-    "name": "Kayaking Kantale — Agbo Adventures",
-    "shortName": "Kantale Kayaking",
-    "address": "85 Junction, Agbopura (on the A6, Ambepussa–Kurunegala–Trincomalee Highway)",
-    "lat": 8.3353,
-    "lng": 80.9768,
-    "hours": "7:00 AM–6:30 PM",
-    "description": "Kayaking on the Kantale reservoir, right on the A6 route.",
-    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on your A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town.",
-    "image": "/images/kayaking-kantale.svg"
-  },
-  {
     "id": "velgam-vehera",
-    "order": 2,
+    "order": 1,
     "name": "Velgam Vehera Buddhist Temple",
     "shortName": "Velgam Vehera",
     "address": "Velgam Vehera, Trincomalee District",
@@ -27,7 +14,7 @@
   },
   {
     "id": "kanniya",
-    "order": 3,
+    "order": 2,
     "name": "Kanniya Hot Water Springs",
     "shortName": "Kanniya Hot Springs",
     "address": "Kanniya, Trincomalee District",
@@ -40,7 +27,7 @@
   },
   {
     "id": "marble-beach",
-    "order": 4,
+    "order": 3,
     "name": "Marble Beach",
     "shortName": "Marble Beach",
     "address": "Marble Beach, Trincomalee",
@@ -53,7 +40,7 @@
   },
   {
     "id": "koneswaram",
-    "order": 5,
+    "order": 4,
     "name": "Thirukoneswaram Kovil (Koneswaram Temple), Fort Frederick",
     "shortName": "Koneswaram Temple",
     "address": "Fort Frederick, Trincomalee",
@@ -63,6 +50,19 @@
     "description": "Iconic hilltop temple within Fort Frederick, on the way back to the accommodation.",
     "notes": "⚠️ Restriction: shoulders and knees must be covered and shoes removed before entering — plan a quick change out of beachwear at Marble Beach or on the bus. Vehicles pass through a checkpoint (ID may be checked) to a large car park, then it's a ~200 m walk up to the temple.",
     "image": "/images/koneswaram-temple.svg"
+  },
+  {
+    "id": "verandas",
+    "order": 5,
+    "name": "Verandas, Trincomalee",
+    "shortName": "Verandas (Accommodation)",
+    "address": "Trincomalee",
+    "lat": 8.5852,
+    "lng": 81.1921,
+    "hours": "—",
+    "description": "The group's accommodation for the night of 26 August.",
+    "notes": "Checkout happens the morning of 27 August — the group doesn't return here after breakfast.",
+    "image": "/images/verandas-accommodation.svg"
   },
   {
     "id": "nilaveli",
@@ -87,20 +87,20 @@
     "lng": 81.2038,
     "hours": "8:00 AM–4:00 PM",
     "description": "Snorkelling and beach — the trip's highest-value, hardest-to-reschedule activity.",
-    "notes": "Boats depart from Nilaveli. August sits within the dry-season \"calm sea\" window (May–September, June–August rated best).",
+    "notes": "Boats depart from Nilaveli. August sits within the dry-season \"calm sea\" window (May–September, June–August rated best). Extended to 150 minutes now that Day 2 doesn't loop back to Verandas.",
     "image": "/images/pigeon-island.svg"
   },
   {
-    "id": "verandas",
+    "id": "kantale",
     "order": 8,
-    "name": "Verandas, Trincomalee",
-    "shortName": "Verandas (Accommodation)",
-    "address": "Trincomalee",
-    "lat": 8.5852,
-    "lng": 81.1921,
-    "hours": "—",
-    "description": "The group's accommodation for both nights.",
-    "notes": "",
-    "image": "/images/verandas-accommodation.svg"
+    "name": "Kayaking Kantale — Agbo Adventures",
+    "shortName": "Kantale Kayaking",
+    "address": "85 Junction, Agbopura (on the A6, Ambepussa–Kurunegala–Trincomalee Highway)",
+    "lat": 8.3353,
+    "lng": 80.9768,
+    "hours": "7:00 AM–6:30 PM",
+    "description": "Kayaking on the Kantale reservoir, right on the A6 route.",
+    "notes": "⚠️ Verification note: two nearly identical Google listings exist (\"Kayaking Kantale – Agbo Adventures\" and a Tamil-titled duplicate a few hundred metres away) — both point to the same operator/spot on the Kantale reservoir, right on your A6 route. This is not the Kandy area or any other \"Kantale\"-sounding place; it's the Kantale tank in Trincomalee District, ~38 km before Trincomalee town. Now visited on the Day 2 return leg (mid-afternoon) rather than Day 1 morning, so the group doesn't have to double back to Verandas after Pigeon Island — the cool-morning-calm-water advantage is traded for that, but it's still well clear of sunset.",
+    "image": "/images/kayaking-kantale.svg"
   }
 ]
